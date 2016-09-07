@@ -1,7 +1,14 @@
-<?php
+<!DOCTYPE html>
+<html>
 
-echo "Hello World - I can edit this file from anywhere in the world!";
+<head>
+	<title>Colton&apos;s Web Page</title>
+</head>
 
-require("extra.php");
+<body>
+	<h1>My page on the internet</h1>
+	<?php date("y"); ?>
+</body>
 
-echo "After extra!";
+
+<html>
