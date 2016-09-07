@@ -3,7 +3,7 @@
 
 
 <head>
-	<title>Preston&apos;s Web Page</>
+	<title>Preston&apos;s Web Page</title> <!-- DIDDY FORGOT TO CLOSE TITLE -->
 </head>
 
 
