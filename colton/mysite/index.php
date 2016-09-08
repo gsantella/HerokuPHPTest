@@ -23,9 +23,18 @@
 				<!-- Header -->
 					<header id="header">
 						<h1>Colton Kimberly</h1>
-						<p>Security Chief &nbsp;&bull;&nbsp; awesome &nbsp;&bull;&nbsp; Never asked for this</p>
-						<p>You are visiting from <?= $_SERVER["REMOTE_ADDR"] ?></p>
-						<p>The date is <?=date("Y");?></p>
+						<p>Security Chief &nbsp;&bull;&nbsp; Awesome &nbsp;&bull;&nbsp; Never asked for this</p>
+						<p>Remote Address: <?= $_SERVER["REMOTE_ADDR"] ?></p>
+						<p>Server Address: <?= $_SERVER["SERVER_ADDR"] ?></p>
+						<p>Server Software: <?= $_SERVER["SERVER_SOFTWARE"] ?></p>
+						<p>Request Time: <?= $_SERVER["REQUEST_TIME"] ?></p>
+						<p>Using HTTPS: <?= $_SERVER["HTTPS"] ?></p>
+						<p>REMOTE HOST: <?= $_SERVER["REMOTE_HOST"] ?></p>
+						<p>SERVER PORT: <?= $_SERVER["SERVER_PORT"] ?></p>
+						<p>REMOTE:PORT <?= $_SERVER["REMOTE_PORT"] ?></p>
+						<p>PHP_SELF: <?= $_SERVER["PHP_SELF"] ?></p>
+						<p> <?= $_SERVER["REMOTE_ADDR"] ?></p>
+						<p>The date is <?=date("Y/m/d");?></p>
 						<nav>
 							<ul>
 								<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
