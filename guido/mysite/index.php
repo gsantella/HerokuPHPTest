@@ -23,6 +23,16 @@
 					<header id="header">
 						<h1><a href="#">Future Imperfect</a></h1>
 						<p>You are visiting from: <?= $_SERVER["REMOTE_ADDR"]; ?></p>
+						<p>SERVER ADDRESS: <?= $_SERVER["SERVER_ADDR"]; ?></p>
+						<p>SERVER NAME: <?= $_SERVER["SERVER_NAME"]; ?></p>
+						<p>SERVER SOFTWARE: <?= $_SERVER["SERVER_SOFTWARE"]; ?></p>
+						<p>REQUEST TIME: <?= $_SERVER["REQUEST_TIME"]; ?></p>
+						<p>REMOTE HOST: <?= $_SERVER["REMOTE_HOST"]; ?></p>
+						<p>SERVER PORT: <?= $_SERVER["SERVER_PORT"]; ?></p>
+						<p>REMOTE PORT: <?= $_SERVER["REMOTE_PORT"]; ?></p>
+						<p>PHP_SELF: <?= $_SERVER["PHP_SELF"]; ?></p>
+						<p>Using HTTPS: <?= $_SERVER["HTTPS"]; ?></p>
+						
 						<nav class="links">
 							<ul>
 								<li><a href="#">Lorem</a></li>
