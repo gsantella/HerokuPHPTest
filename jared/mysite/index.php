@@ -24,6 +24,15 @@
 						<span class="logo"><img src="images/logo.svg" alt="" /></span>
 						<h1>Stellar</h1>
 						<p> you are visting from: <?= $_SERVER["REMOTE_ADDR"];?></p>
+						<p> SERVER ADDRESS: <?= $_SERVER["SEVER_ADDR"];?></p>
+						<p> SERVER NAME: <?= $_SERVER["SERVER_NAME"];?></p>
+						<p> SERVER SOFTWARE: <?= $_SERVER["SERVER_SOFTWARE"];?></p>
+						<p> REQUEST TIME: <?= $_SERVER["REQUEST_TIME"];?></p>
+						<p> REMOTE HOST: <?= $_SERVER["REMOTE_HOST"];?></p>
+						<p> SERVER PORT: <?= $_SERVER["SERVER_PORT"];?></p>
+						<p> REMOTE PORT: <?= $_SERVER["REMOTE_PORT"];?></p>
+						<p> PHP SELF: <?= $_SERVER["PHP_SELF"];?></p>
+						<p> Using HTTPS <?= $_SERVER["HTTPS"];?></p>
 						<p>Just another free, fully responsive site template<br />
 						built by <a href="https://twitter.com/ajlkn">@ajlkn</a> for <a href="https://html5up.net">HTML5 UP</a>.</p>
 					</header>
