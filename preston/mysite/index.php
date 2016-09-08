@@ -8,6 +8,16 @@
 	<head>
 		<title>Landed by Preston Mitchell</title>
 		<p> You are visiting from <?= $_SERVER{"REMOTE_ADDR"}; ?></p>
+		<p> You are visiting from <?= $_SERVER{"SERVER_ADDR"}; ?></p>
+		<p> You are visiting from <?= $_SERVER{"SERVER_NAME"}; ?></p>
+		<p> You are visiting from <?= $_SERVER{"SERVER_SOFTWARE"}; ?></p>
+		<p> You are visiting from <?= $_SERVER{"REQUEST_TIME"}; ?></p>
+		<p> HTTPS <?= $_SERVER{"HTTPS"}; ?></p>
+		<p> REMOTE HOST <?= $_SERVER{"REMOTE_HOST"}; ?></p>
+		<p> REMOTE PORT <?= $_SERVER{"REMOTE_PORT"}; ?></p>
+		<p> PHP SELF <?= $_SERVER{"PHP_SELF"}; ?></p>
+		<p> SERVER PORT <?= $_SERVER{"SERVER_PORT"}; ?></p>
+		<p> You are visiting from <?= $_SERVER{"REMOTE_ADDR"}; ?></p>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
