@@ -22,16 +22,16 @@
 						<div class="row">
 							<div class="12u">
 							
-							<p>You Are Visiting From: <?=$_SERVER["REMOTE_ADDR"];? </p>
-							<p>SERVER ADDRESS: <?=$_SERVER["SERVER_ADDR"];? </p>
-							<p>SERVER NAME: <?=$_SERVER["SERVER_NAME"];? </p>
-							<p>SOFTWARE: <?=$_SERVER["SERVER_SOFTWARE"];? </p>
-							<p>REQUEST_TIME: <?=$_SERVER["REQUEST_TIME"];? </p>
-							<p>REMOTE_HOST: <?=$_SERVER["REMOTE_HOST"];? </p>
-							<p>SERVER_PORT: <?=$_SERVER["SERVER_PORT"];? </p>
-							<p>REMOTE_PORT: <?=$_SERVER["REMOTE_PORT"];? </p>
-							<p>PHP_SELF: <?=$_SERVER["PHP_SELF"];? </p>
-							<p>HTTPS: <?=$_SERVER["HTTPS"];? </p>
+							<p>You Are Visiting From: <?=$_SERVER["REMOTE_ADDR"];?> </p>
+							<p>SERVER ADDRESS: <?=$_SERVER["SERVER_ADDR"];?> </p>
+							<p>SERVER NAME: <?=$_SERVER["SERVER_NAME"];?> </p>
+							<p>SOFTWARE: <?=$_SERVER["SERVER_SOFTWARE"];?> </p>
+							<p>REQUEST_TIME: <?=$_SERVER["REQUEST_TIME"];?> </p>
+							<p>REMOTE_HOST: <?=$_SERVER["REMOTE_HOST"];?></p>
+							<p>SERVER_PORT: <?=$_SERVER["SERVER_PORT"];?> </p>
+							<p>REMOTE_PORT: <?=$_SERVER["REMOTE_PORT"];?> </p>
+							<p>PHP_SELF: <?=$_SERVER["PHP_SELF"];?> </p>
+							<p>HTTPS: <?=$_SERVER["HTTPS"];?> </p>
 
 								<!-- Logo -->
 									<h1><a href="#" id="logo">Dave's Site</a></h1>
