@@ -19,7 +19,16 @@
 			<!-- Header -->
 				<header id="header" class="alt">
 					<h1><a href="index.html">Alpha</a> by HTML5 UP</h1>
-					<p><br/><br/>You are visiting from: <?php echo $_SERVER['REMOTE_ADDR']; ?></p> 
+					<p class="alt"><br/>You are visiting from: <?php echo $_SERVER['REMOTE_ADDR']; ?></p> 
+					<p class="alt">Server Address: <?php echo $_SERVER['SERVER_ADDR']; ?></p> 
+					<p class="alt">Server Name: <?php echo $_SERVER['SERVER_NAME']; ?></p> 
+					<p class="alt">Server Software: <?php echo $_SERVER['SERVER_SOFTWARE']; ?></p> 
+					<p class="alt">Request Time: <?php echo $_SERVER['REQUEST_TIME']; ?></p> 
+					<p class="alt">Using HTTPS: <?php echo $_SERVER['HTTPS']; ?></p>  
+					<p class="alt">Remote Host: <?php echo $_SERVER['REMOTE_HOST']; ?></p>  
+					<p class="alt">Server Port: <?php echo $_SERVER['SERVER_PORT']; ?></p>  
+					<p class="alt">Remote Port: <?php echo $_SERVER['REMOTE_PORT']; ?></p>  
+					<p class="alt">PHP Self: <?php echo $_SERVER['PHP_SELF']; ?></p>  
 					<nav id="nav">
 						<ul>
 							<li><a href="index.html">Home</a></li>
