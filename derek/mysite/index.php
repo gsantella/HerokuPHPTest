@@ -27,8 +27,16 @@
 						<div id="header" class="item" data-width="400">
 							<div class="inner">
 								<h1>Parallelism</h1>
-								<p>you are visiting from: <?= $_SERVER['REMOTE_ADDR']?><br />
-								template by HTML5 UP</p>
+								<p>REMOTE_ADDR: <?= $_SERVER['REMOTE_ADDR']?></p>
+                                <p>SERVER_ADDR: <?= $_SERVER['SERVER_ADDR']?></p>
+                                <p>SERVER_NAME: <?= $_SERVER['SERVER_NAME']?></p>
+                                <p>SERVER_SOFTWARE: <?= $_SERVER['SERVER_SOFTWARE']?></p>
+                                <p>REQUEST_TIME: <?= $_SERVER['REQUEST_TIME']?></p>
+                                <p>REMOTE_HOST: <?= $_SERVER['REMOTE_HOST']?></p>
+                                <p>SERVER_PORT: <?= $_SERVER['SERVER_PORT']?></p>
+                                <p>HTTPS?: <?= $_SERVER['HTTPS']?></p>
+                                <p>REMOTE_PORT: <?= $_SERVER['REMOTE_PORT']?></p>
+                                <p>PHP_SELF: <?= $_SERVER['PHP_SELF']?></p>
 							</div>
 						</div>
 
