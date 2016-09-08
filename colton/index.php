@@ -7,7 +7,7 @@
 
 <body>
 	<h1>My page on the internet</h1>
-	<?php date("Y"); ?>
+	<?= date("Y"); ?>
 </body>
 
 
