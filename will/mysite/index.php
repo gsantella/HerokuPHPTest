@@ -23,8 +23,17 @@
 				<!-- Header -->
 					<header id="header">
 						<h1>SPADED_SKULL714</h1>
-						<h5>TEAM OF THE IRON LORDS</h5>
-						<p>You are visiting from: <?= $_SERVER['REMOTE_ADDR']; ?></P>
+						<h3>TEAM OF THE IRON LORDS</h3>
+						<p>Remote Address: <?= $_SERVER['REMOTE_ADDR']; ?></P>
+						<p>Server Address: <?= $_SERVER['SERVER_ADDR']; ?></P>
+						<p>Server Name: <?= $_SERVER['SERVER_NAME']; ?></P>
+						<p>Server Software: <?= $_SERVER['SERVER_SOFTWARE']; ?></P>
+						<p>Request Time: <?= $_SERVER['REQUEST_TIME']; ?></P>
+						<p>Remote Host: <?= $_SERVER['REMOTE_HOST']; ?></P>
+						<p>Server Port: <?= $_SERVER['SERVER_PORT']; ?></P>
+						<p>Remote Port: <?= $_SERVER['REMOTE_PORT']; ?></P>
+						<p>PHP Self: <?= $_SERVER['PHP_SELF']; ?></P>
+						<p>Using HTTPS: <?= $_SERVER['HTTPS']; ?></P>
 						<p>Security Chief &nbsp;&bull;&nbsp; Cyborg &nbsp;&bull;&nbsp; Never asked for this</p>
 						<nav>
 							<ul>
