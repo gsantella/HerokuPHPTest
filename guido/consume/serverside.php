@@ -8,7 +8,7 @@
       $url  = "https://dataclips.heroku.com/elbicfdblodrgkgwyompoodpdxae-JustFirstNames.json";
       $json = file_get_contents($url);
       $data = json_decode($json, TRUE);
-      var_export $data;
+      print_r($data);
     ?>
   </body>
 </html>
