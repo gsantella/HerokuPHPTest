@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Daves Web Page</title>
+		<title>Kaylee Sue Photography</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -21,28 +21,17 @@
 					<header id="header" class="container">
 						<div class="row">
 							<div class="12u">
-							
-							<p>You Are Visiting From: <?=$_SERVER["REMOTE_ADDR"];?> </p>
-							<p>SERVER ADDRESS: <?=$_SERVER["SERVER_ADDR"];?> </p>
-							<p>SERVER NAME: <?=$_SERVER["SERVER_NAME"];?> </p>
-							<p>SOFTWARE: <?=$_SERVER["SERVER_SOFTWARE"];?> </p>
-							<p>REQUEST_TIME: <?=$_SERVER["REQUEST_TIME"];?> </p>
-							<p>REMOTE_HOST: <?=$_SERVER["REMOTE_HOST"];?></p>
-							<p>SERVER_PORT: <?=$_SERVER["SERVER_PORT"];?> </p>
-							<p>REMOTE_PORT: <?=$_SERVER["REMOTE_PORT"];?> </p>
-							<p>PHP_SELF: <?=$_SERVER["PHP_SELF"];?> </p>
-							<p>HTTPS: <?=$_SERVER["HTTPS"];?> </p>
 
 								<!-- Logo -->
-									<h1><a href="#" id="logo">Dave's Site</a></h1>
+									<h1><a href="#" id="logo">Kaylee Sue Photography</a></h1>
 
 								<!-- Nav -->
 									<nav id="nav">
 										<a href="index.html">Homepage</a>
-										<a href="threecolumn.html">Three Column</a>
-										<a href="twocolumn1.html">Two Column #1</a>
-										<a href="twocolumn2.html">Two Column #2</a>
-										<a href="onecolumn.html">One Column</a>
+										<a href="threecolumn.html">Gallery</a>
+										<a href="twocolumn1.html">Weddings</a>
+										<a href="twocolumn2.html">Engagement</a>
+										<a href="onecolumn.html">Senior Photos</a>
 									</nav>
 
 							</div>
@@ -54,7 +43,7 @@
 								<div class="6u 12u(mobile)">
 
 									<!-- Banner Copy -->
-										<p>Lets Kick This Site Into High Gear ...</p>
+										<p>Email KaysueX_111@Yahoo.com For A Free Quote . . .</p>
 										<a href="#" class="button-big">Go on, click me!</a>
 
 								</div>
