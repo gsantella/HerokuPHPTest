@@ -8,7 +8,7 @@
 </head>
 <body>
 	
-	<?php include("includes/header.php"); ?>
+	<?= headers; ?>
 	
 	<main>
 		<p>This is the main content of index.php</p>
