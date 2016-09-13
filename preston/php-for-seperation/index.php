@@ -8,6 +8,8 @@
 </head>
 
 <body>
+
+	<?php include("includes/header.php"); ?>
 	<header>
 		<p>This is the header content for all pages!</p>
 		<a href="index.php">Home</a>
@@ -20,10 +22,8 @@
 	
 	</main>
 	
-	<footer>
-	<p> This is the footer content for all pages</p>
-	
-	</footer>
+	<?php include("includes/footer.php"); ?>
+
 </body>
 
 
