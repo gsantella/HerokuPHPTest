@@ -8,18 +8,15 @@
 </head>
 
 <body>
-	<header>
-		<p>This is the header content for all pages!</p>
-		<a href="index.php">home</a>
-		<a href="page1.php">home</a>
-		<a href="page2.php">home</a>
-	</header>
+
+	<h<?= include("include/header.php");?>
+	
 	<main>
 		<p>This is the main content of Page 2</p>
 	</main>
-	<footer>
-		<p>This is the footer content for all pages</p>
-	</footer>
+	
+	<?= include("include/footer.php") ?>
+	
 </body>
 
 </html>
