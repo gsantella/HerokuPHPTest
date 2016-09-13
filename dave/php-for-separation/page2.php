@@ -14,9 +14,7 @@
 	
 	
 	<main>
-		<p>
-		This is the main content of page2.php.
-		</p>
+		<p>This is the main content of page2.php.</p>
 	</main>
 
 	<?php include ("includes/footer.php");?>
