@@ -10,7 +10,7 @@
 		<?php include("includes/header.php"); ?>
 	
 	<main>
-		<p> This is the main content for Page 2</p>
+		<p> This is the main content for page 2</p>
 	<main/>
 	
 	<?php include("includes/footer.php"); ?>

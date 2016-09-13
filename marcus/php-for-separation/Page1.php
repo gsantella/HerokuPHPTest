@@ -11,7 +11,7 @@
 	<?php include("includes/header.php"); ?>
 	
 	<main>
-		<p> This is the main content for Page 1 </p>
+		<p> This is the main content for page 1 </p>
 	<main/>
 	
 	<?php include("includes/footer.php"); ?>
