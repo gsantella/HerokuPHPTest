@@ -46,7 +46,7 @@
 				in three variants: static, slideshow, and particles background and just like our other website
 				templates, it is fully responsive and retina ready which means it would look awesome, crisp 
 				and sharp on any device from mobile to desktop.
-				<?= date['Y'];?>
+				<p> <?= date('Y');?> </p>
    			</p>
 
    		</div>
