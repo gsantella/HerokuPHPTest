@@ -41,11 +41,13 @@
    			<h1>Quatro<span>.</span></h1>
 
    			<p class="lead">
-   			Quatro is a creative pack of 404 pages. It features a clean and modern design which
+				Quatro is a creative pack of 404 pages. It features a clean and modern design which
 				is absolutely perfect for your blog, porfolio and agency websites. Quatro is available
 				in three variants: static, slideshow, and particles background and just like our other website
 				templates, it is fully responsive and retina ready which means it would look awesome, crisp 
 				and sharp on any device from mobile to desktop.
+				
+				<?= date("Y"); ?>
    			</p>
 
    		</div>
