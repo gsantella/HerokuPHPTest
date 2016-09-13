@@ -17,7 +17,7 @@
 			
 		</main>
 			
-		<?php include("includes/fotter.php") ?>
+		<?php include("includes/footer.php") ?>
 		
 	</body>
 
