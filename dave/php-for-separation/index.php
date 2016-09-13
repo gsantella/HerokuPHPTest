@@ -11,7 +11,7 @@
 <body>
 	<header>
 		<p>
-		This is the header content for all pages.
+		This is the header content for all pages!
 		</p>
 		<a href="index.php"> Home Page </a>
 		<a href="page1.php"> Page1 </a>
