@@ -9,13 +9,13 @@
 
 <body>
 	
-	<?= include("include/header.php");?>
+	<?= include("includes/header.php");?>
 	
 	<main>
 		<p>This is the main content of Page 1</p>
 	</main>
 	
-	<?= include("include/footer.php") ?>
+	<?= include("includes/footer.php") ?>
 
 	</body>
 
