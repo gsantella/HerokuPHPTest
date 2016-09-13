@@ -13,7 +13,7 @@
 			<a href="page2.php">Page2</a>
 		</header>
 		<main>
-			<p>This is the main context of index.php</p>
+			<p>This is the main context of page2.php</p>
 		</main>
 		<footer>
 			<p>This is the footer content for all pages</p>
