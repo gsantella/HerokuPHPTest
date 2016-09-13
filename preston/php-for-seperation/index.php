@@ -1,3 +1,5 @@
+<?php include("includes/functions.php"); ?>
+
 <!DOCTYPE html>
 <html>
 
@@ -14,7 +16,7 @@
 	
 	<main>
 		<p> This is the main context of index</p>
-	
+		<p> The current day is: <?= getDayOfWeek(); ?></p>
 	</main>
 	
 	<?php include("includes/footer.php"); ?>
