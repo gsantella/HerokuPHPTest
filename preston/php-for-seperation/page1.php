@@ -9,19 +9,19 @@
 
 <body>
 	<header>
-		<p>This is the header content for all pages</p>
+		<p>This is the header content for Page 1</p>
 		<a href="index.php">Home</a>
-		<a href="page1.php">page1</a>
-		<a href="page2.php">page2</a>
+		<a href="page1.php">Page 1</a>
+		<a href="page2.php">Page 2</a>
 	</header>
 	
 	<main>
-		<p> This is the main context of page 1.php</p>
+		<p> This is the main context of Page 1</p>
 	
 	</main>
 	
 	<footer>
-	<p> This is the footer content for all pages</p>
+	<p> This is the footer content for Page 1</p>
 	
 	</footer>
 </body>
