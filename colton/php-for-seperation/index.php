@@ -8,15 +8,10 @@
 </head>
 
 <body>
-
-
 	<?= include("includes/header.php");?>
-	
-	
 	<main>
 		<p>This is the main content of index.php</p>
 	</main>
-	
 	<?= include("includes/footer.php") ?>
 	
 	
