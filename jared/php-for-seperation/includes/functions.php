@@ -2,6 +2,6 @@
 
 function getDayOfWeek()
 {
-	return date("l")
+	return date("l");
 }
 
