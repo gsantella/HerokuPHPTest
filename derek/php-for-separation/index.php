@@ -1,3 +1,4 @@
+<?php include("includes/functions.php"); ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,6 +9,7 @@
 	<? include("includes/header.php"); ?>
 	<main>
 	<p>This is the Main Content for home page!</p>
+	<p>The current day is: <?= getDayOfWeek(); ?></p>
 	</main>
 	<? include("includes/footer.php"); ?>
 </body>
