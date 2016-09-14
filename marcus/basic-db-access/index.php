@@ -5,7 +5,7 @@ $db = "ddf1ndt04b3tti";
 $user = "fpkkqmtaywxfwm";
 $pass = "dbEE8plG9zaS_QCcVzZeD7maqU";
 
-$dsn = "pgsql:dbname=$db;host=$host;username=$user;password=$pass";
+$dsn = "pgsql:dbname=$db;host=$host;user=$user;password=$pass";
 $database = new PDO($dsn);
 //Run a SELECT SQL Statement to get results
 $result = $database.->query("SELECT * FROM students;")->fetchAll(PDO::FETCH_ASSOC);
@@ -21,7 +21,7 @@ $result = $database.->query("SELECT * FROM students;")->fetchAll(PDO::FETCH_ASSO
 	<title>Basic Database Access</title>
 </head>
 <body>
-	<?php echo $result; ?>
+	<?php print_r($result); ?>
 </body>
 
 </html>
