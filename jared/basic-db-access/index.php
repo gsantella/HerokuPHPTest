@@ -5,7 +5,7 @@ $db = "ddf1ndt04b3tti";
 $user = "fpkkqmtaywxfwm";
 $pass = "dbEE8plG9zaS_QCcVzZeD7maqU";
 
-$dsn = "pgsql:dbname=$db;host=$host;usename=$user;password=$pass;";
+$dsn = "pgsql:dbname=$db;host=$host;user=$user;password=$pass";
 
 $database = new PDO($dsn);
 // run a select statement to get results
