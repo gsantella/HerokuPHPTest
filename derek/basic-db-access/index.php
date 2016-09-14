@@ -9,7 +9,7 @@ $dsn = "pgsql:dbname=$db;host=$host;user=$user;password=$pass";
 $database = new PDO($dsn);
 
 //Run a SELECT SQL Statement
-$result = $database->query("SELECT * FROM student;")->fetchAll(PDO::FETCH_ASSOC);
+$result = $database->query("SELECT * FROM students;")->fetchAll(PDO::FETCH_ASSOC);
 
 //close connection
 //ignore for now
