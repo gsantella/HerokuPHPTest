@@ -23,6 +23,6 @@ $result = $database->query("SELECT * FROM students;")->fetchAll(PDO::FETCH_ASSOC
 	</head>
 	
 	<body>
-		<?php echo print_r($result); ?>
+		<?php print_r($result); ?>
 	</body>
 </html>
