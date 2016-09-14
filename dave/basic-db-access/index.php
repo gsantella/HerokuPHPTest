@@ -10,7 +10,7 @@ $database = new PDO($dsn);
 
 
 //Run a SELECT SQL Statement To Get Results
-$result = $database->query("SELECT * FROM students;")->fetchAll(PDO::FETCH_ASSOC);
+$result = $database->query("SELECT * FROM students;");
 
 
 
