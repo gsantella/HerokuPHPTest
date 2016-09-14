@@ -7,7 +7,12 @@ function getDayOfWeek()
 	
 }
 
-
+function makeFunOfAllen()
+{
+	
+	return "Allen is a NOOB . . . ";
+	
+}
 
 
 
