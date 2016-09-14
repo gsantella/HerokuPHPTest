@@ -5,7 +5,7 @@ $db = "ddf1ndt04b3tti";
 $user = "fpkkqmtaywxfwm";
 $pass = "dbEE8plG9zaS_QCcVzZeD7maqU";
 
-$dsn = "pgsql:dbname=$db;host=$host", $user, $pass;
+$dsn = "pgsql:dbname=$db;host=$host;user=$user;password=$pass";
 	    //POST Gress
 $database = new PDO($dsn);
 
