@@ -8,6 +8,7 @@
 
 	<body>
 		<?= $result[0]["first_name"]; ?>
+		
 		<table>
 		<?php foreach($result as $row): ?>
 			<tr>
@@ -16,7 +17,11 @@
 			</tr>
 		<?php endforeach; ?>
 		</table>
+		
+		<p> the number of row in the table: <?= $result->rowcount(); ?></p>
+		
 		<table>
+		
 			<tr>
 				<td>1</td>
 				<td>ford<td>
