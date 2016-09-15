@@ -1,4 +1,4 @@
-<?php include("inc/db_functions.php"); ?>
+<?php include("inc\db_functions.php"); ?>
 <!DOCTYPE html>
 <html>
 
