@@ -13,4 +13,3 @@ $result = $database->query("SELECT * FROM students;")->fetchAll(PDO::FETCH_ASSOC
 
 //Close Connection
 //Ignore For Now . . 
-?>
