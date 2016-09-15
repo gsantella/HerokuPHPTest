@@ -16,12 +16,13 @@
 		<th class="text-left">ID</th>
 		<th class="text-left">First Name</th>
 	</tr>
+	</thead>
 	<tbody class="table-hover">
 		<?php foreach($result as $row): ?>
-		<tr>
-			<td><?= $row["id"]; ?></td>
-			<td><?= $row["first_name"]; ?></td>
-		</tr>
+			<tr>
+				<td><?= $row["id"]; ?></td>
+				<td><?= $row["first_name"]; ?></td>
+			</tr>
 		<?php endforeach ; ?>
 	</tbody>
 	</table>
