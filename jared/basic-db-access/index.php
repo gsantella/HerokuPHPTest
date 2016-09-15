@@ -4,21 +4,30 @@
 
 	<head>
 		<title>Basic Database Access</title>
+		<link rel="stylesheet" href="css/main.css" />
 	</head>
 
 	<body>
 		<?= $result[0]["first_name"]; ?>
-		
-		<table>
-		<?php foreach($result as $row): ?>
+		<div class="table-title">
+			<h3>Students Table</h3>
+		</div>
+		<table class="table-fill">
 			<tr>
-				<td><?= $row["id"]; ?></td>
-				<td><?= $row["first_name"]; ?></td>
+				<th class="text-left">Id</th>
+				<th class="text-left">First Name</th>
 			</tr>
-		<?php endforeach; ?>
+			<tbody class="table-hover">
+				<?php foreach($result as $row): ?>
+					<tr>
+						<td class="text-left"><?= $row["id"]; ?></td>
+						<td class="text-left"><?= $row["first_name"]; ?></td>
+					</tr>
+				<?php endforeach; ?>
+			</tbody>
 		</table>
 		
-		<p> the number of row in the table: <?= $result->rowcount(); ?></p>
+		<p> the number of rows in the table: <?= $result->rowcount(); ?></p>
 		
 		<table>
 		
