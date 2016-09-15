@@ -8,8 +8,19 @@
 
 <body>
 	<?= $result[0]["first_name"]; ?>
+	
+	
 </body>
 
+	<table>
+	<?php foreach($result as $row: ?>
+		<tr>
+			<td><?php $row["id"]; ?></td>
+			<td><?php $row["first_name"]; ?></td>
+		</tr>
+	<?php endforeach; ?>
+	</table>
+	
 	<table>
 		<tr>
 			<td>1</td>
