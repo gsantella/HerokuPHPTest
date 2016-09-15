@@ -1,4 +1,4 @@
-<?php include("inc\db_functions.php"); ?>
+<?php include("inc/db_functions.php"); ?>
 <!DOCTYPE html>
 <html>
 
@@ -6,7 +6,7 @@
 	<title>Basic Database Access</title>
 </head>
 <body>
-	<?php $result[0]["first_name"]; ?>
+	<?=$result[0]["first_name"]; ?>
 </body>
 
 </html>
