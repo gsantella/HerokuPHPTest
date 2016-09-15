@@ -9,6 +9,17 @@
 <body>
 	<?= $result[0]["first_name"]; ?>
 	
+	
+	<table>
+	<?php foreach($result as $row): ?>
+		<tr>
+			<td><?= $row["id"]; ?></td>
+			<td><?= $row["first_name"]; ?></td>
+		</tr>
+	<?php endforeach; ?>
+	</table>
+	
+	
 	<table>
 		<tr>
 			<td>1</td>
