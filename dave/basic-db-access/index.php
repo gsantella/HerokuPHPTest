@@ -1,4 +1,4 @@
-<?php include("db_functions.php"); ?>
+<?php include("inc/db_functions.php"); ?>
 <!DOCTYPE html>
 <html>
 
@@ -7,7 +7,7 @@
 </head>
 
 <body>
-	<?php echo($result[0]["first_name"]); ?>
+	<?= echo($result[0]["first_name"]); ?>
 </body>
 
 </html>
