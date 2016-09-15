@@ -4,7 +4,7 @@
 
 <head> 
 	<title>Basic Database Access</title>
-	<link> rel="stylesheet" href="css/main.css" />
+	<link> rel="stylesheet" href="css/main.css" /> </link>
 </head>
 
 <body>
