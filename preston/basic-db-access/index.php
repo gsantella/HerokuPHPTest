@@ -15,8 +15,8 @@
 	<table>
 	<?php foreach($result as $row: ?>
 		<tr>
-			<td><?php $row["id"]; ?></td>
-			<td><?php $row["first_name"]; ?></td>
+			<td><?= $row["id"]; ?></td>
+			<td><?= $row["first_name"]; ?></td>
 		</tr>
 	<?php endforeach; ?>
 	</table>
