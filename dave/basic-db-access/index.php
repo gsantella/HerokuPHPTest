@@ -7,7 +7,7 @@
 </head>
 
 <body>
-	<?= echo($result[0]["first_name"]); ?>
+	<?= $result[0]["first_name"]; ?>
 </body>
 
 </html>
