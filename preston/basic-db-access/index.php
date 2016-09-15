@@ -25,9 +25,7 @@
 			<td>Focus</td>		
 		</tr>
 		
-		<tr>
-		
-		<?tr>
+
 		
 	</table>
 
