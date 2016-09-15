@@ -10,4 +10,25 @@
 	<?= $result[0]["first_name"]; ?>
 </body>
 
+	<table>
+		<tr>
+			<td>1</td>
+			<td>Ford</td>
+			<td>Focus</td>
+		</tr>
+			<td>2</td>
+			<td>Ford</td>
+			<td>Focus</td>
+		<tr>
+			<td>3</td>
+			<td>Ford</td>
+			<td>Focus</td>		
+		</tr>
+		
+		<tr>
+		
+		<?tr>
+		
+	</table>
+
 </html>
