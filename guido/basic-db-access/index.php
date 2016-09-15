@@ -3,7 +3,7 @@
 <html>
 
 <head>
-	<title> Basic Database Access</title>
+	<title>Basic Database Access</title>
 </head>
 
 <body>
