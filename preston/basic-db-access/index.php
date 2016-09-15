@@ -21,6 +21,8 @@
 	<?php endforeach; ?>
 	</table>
 	
+	<p> The number of rows in the table: <? $result->rowCount(); ?></p>
+	
 	<table>
 		<tr>
 			<td>1</td>
