@@ -9,7 +9,7 @@
 	<body>
 		<?= $result[0]["first_name"]; ?>
 		<table>
-		<?php foreach($database->$result as $row): ?>
+		<?php foreach($result as $row): ?>
 			<tr>
 				<td><?= $row["id"]; ?></td>
 				<td><?= $row["first_name"]; ?></td>
