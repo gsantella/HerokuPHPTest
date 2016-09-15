@@ -3,6 +3,7 @@
 <html>
 	<head>
 		<title>Basic Databse Access</title>
+		<link href="css/main.css" rel="stylesheet" type="text/css" />
 	</head>
 	
 	<body>
