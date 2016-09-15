@@ -20,6 +20,8 @@
 	
 	</table>
 	
+	<p>The Number Of Rows In The Table: <?= $result->rowCount(); ?> </p>
+	
 	<table>
 	
 		<tr>
