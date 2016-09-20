@@ -20,8 +20,8 @@
 	<table class="table-fill">
 	<thead>
 	<tr>
-		<th class="text-left">Month</th>
-		<th class="text-left">Sales</th>
+		<th class="text-left">ID</th>
+		<th class="text-left">First Name</th>
 	</tr>
 	</thead>
 	<tbody class="table-hover">
