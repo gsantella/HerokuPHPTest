@@ -19,7 +19,7 @@
 		<tbody class="table-hover">
 				<tr>
 					<th class="text-left">Id</th>
-					<th class="text-left">First Namw</th>
+					<th class="text-left">First Name</th>
 				</tr>
 			</thead>
 			<?php foreach($result as $row): ?>
