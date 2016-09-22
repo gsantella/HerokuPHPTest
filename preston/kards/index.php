@@ -74,7 +74,7 @@
    			<div class="col-twelve">
 
 	   			<h5>Hello, World.</h5>
-				<?php Happy date!('l') ?>
+				<?= style=color:Maroon Happy! date('l') ?>
 	   			<h1>I'm Preston Mitchell.</h1>
 
 	   			<p class="intro-position">
