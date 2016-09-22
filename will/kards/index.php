@@ -74,8 +74,9 @@
    			<div class="col-twelve">
 
 	   			<h5>Hello, World.</h5>
-	   			<h1>Your Speaking To Will Osemwegie.</h1>
-				<h3 font color="#00FF00">Happy <?php echo date("l");?></h3>
+	   			<h1>Your Speaking To</h1>
+				<h1>Will Osemwegie.</h1>
+				<h1 font color="#6600FF">Happy <?php echo date("l");?></h1>
 
 	   			<p class="intro-position">
 	   				<span>Future NetWorker</span>
