@@ -967,7 +967,7 @@
    		<div class="col-four tab-full">
 
    			<div class="icon">
-   				<i class="icon-phone"></i>
+   				<i class="volume-control-phone"></i>
    			</div>
 
    			<h5>Call Me At</h5>
@@ -1004,7 +1004,7 @@
 
       	<div class="col-six tab-full">
 	      	<div class="copyright">
-		        	<span>© Copyright Kards 2016.</span> 
+		        	<span>&copy; Copyright Kards <?= date("Y"); ?>.</span> 
 		        	<span>Design by <a href="http://www.styleshout.com/">styleshout</a></span>	         	
 		         </div>		                  
 	      	</div>
