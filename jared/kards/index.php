@@ -73,7 +73,7 @@
 
    			<div class="col-twelve">
 
-	   			<h5>Hello, World. <font color="orange"> <?= date("l"); ?> </font></h5>
+	   			<h5>Hello, World. <font color="orange"> Happy <?= date("l");. ?> </font></h5>
 				
 	   			<h1>I'm Juan Dela Cruz.</h1>
 
