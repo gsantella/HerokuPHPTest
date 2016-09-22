@@ -74,7 +74,7 @@
    			<div class="col-twelve">
 
 	   			<h5>Hello, World.</h5>
-				<h5><?php  'Happy!'  date('l') ?> </h5>
+				<h5><?php  Happy  date('l') ?> </h5>
 	   			<h1>I'm Colton Kimberly .</h1>
 
 	   			<p class="intro-position">
