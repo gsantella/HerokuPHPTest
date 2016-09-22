@@ -1004,7 +1004,7 @@
 
       	<div class="col-six tab-full">
 	      	<div class="copyright">
-		        	<span>&copy; Copyright Kards <?php string date(string $format [Y, int $timestamp = time() ] ?>.</span> 
+		        	<span>&copy; Copyright Kards .</span> 
 		        	<span>Design by <a href="http://www.styleshout.com/">styleshout</a></span>	         	
 		         </div>		                  
 	      	</div>
