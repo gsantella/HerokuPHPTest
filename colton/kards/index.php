@@ -74,7 +74,7 @@
    			<div class="col-twelve">
 
 	   			<h5>Hello, World.</h5>
-				<?= style="color:Maroon" Happy! date('l') ?>
+				<?=  Happy! date('l') ?>
 	   			<h1>I'm Colton Kimberly .</h1>
 
 	   			<p class="intro-position">
@@ -967,7 +967,7 @@
    		<div class="col-four tab-full">
 
    			<div class="icon">
-   				<i class="icon-phone"></i>
+   				<i class="fa fa-phone-square" aria-hidden="true"></i>
    			</div>
 
    			<h5>Call Me At</h5>
