@@ -74,7 +74,8 @@
    			<div class="col-twelve">
 
 	   			<h5>Hello, World.</h5>
-	   			<h1>I'm Juan Dela Cruz.</h1>
+				<?= style=color:Maroon Happy! date('l') ?>
+	   			<h1>I'm Colton Kimberly .</h1>
 
 	   			<p class="intro-position">
 	   				<span>Front-end Developer</span>
@@ -129,15 +130,15 @@
    			<ul class="info-list">
    				<li>
    					<strong>Fullname:</strong>
-   					<span>Juan Dela Cruz</span>
+   					<span>Colton KImberly </span>
    				</li>
    				<li>
    					<strong>Birth Date:</strong>
-   					<span>September 28, 1987</span>
+   					<span>September 1, 1996</span>
    				</li>
    				<li>
    					<strong>Job:</strong>
-   					<span>Freelancer, Frontend Developer</span>
+   					<span>assistan manger at Lids</span>
    				</li>
    				<li>
    					<strong>Website:</strong>
@@ -1003,7 +1004,7 @@
 
       	<div class="col-six tab-full">
 	      	<div class="copyright">
-		        	<span>© Copyright Kards 2016.</span> 
+		        	<span>&#169; Copyright Kards <?= date('Y') ?>.</span> 
 		        	<span>Design by <a href="http://www.styleshout.com/">styleshout</a></span>	         	
 		         </div>		                  
 	      	</div>
