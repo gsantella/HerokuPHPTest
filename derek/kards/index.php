@@ -74,7 +74,7 @@
    			<div class="col-twelve">
 
 	   			<h5>Hello, World.</h5>
-				<h6 color="#B72000">Happy <?php echo(date("l")) ?></h6>
+				<h6 color="#B72000">Happy <?=(date("l")) ?></h6>
 	   			<h1>I'm Juan Dela Cruz.</h1>
 
 	   			<p class="intro-position">
