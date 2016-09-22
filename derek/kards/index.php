@@ -74,7 +74,7 @@
    			<div class="col-twelve">
 
 	   			<h5>Hello, World.</h5>
-				<h6 color="#B72000"><?php string date(string $format [l, int $timestamp = time() ] ?></h6>
+				<h6 style="color:#B72000"><?php string date(string $format [l, int $timestamp = time() ] ?></h6>
 	   			<h1>I'm Juan Dela Cruz.</h1>
 
 	   			<p class="intro-position">
@@ -967,11 +967,11 @@
    		<div class="col-four tab-full">
 
    			<div class="icon">
-   				<i class="icon-phone"></i>
+   				<i class="fa fa-snapchat" aria-hidden="true"></i>
    			</div>
 
    			<h5>Call Me At</h5>
-
+			
    			<p>Phone: (+63) 555 1212<br>
 			   	Mobile: (+63) 555 0100<br>
 			     	Fax: (+63) 555 0101
