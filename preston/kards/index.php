@@ -74,7 +74,8 @@
    			<div class="col-twelve">
 
 	   			<h5>Hello, World.</h5>
-	   			<h1>I'm Juan Dela Cruz.</h1>
+				<?php style="color:blue" Happy date!('l') ?>
+	   			<h1>I'm Preston Mitchell.</h1>
 
 	   			<p class="intro-position">
 	   				<span>Front-end Developer</span>
