@@ -970,10 +970,8 @@
    		<div class="col-four tab-full">
 
 		
-			<i class="fa fa-mobile" aria-hidden="true"></i>
-			
    			<div class="icon">
-   				<i class="icon-phone"></i>
+   				<i class="fa fa-mobile" aria-hidden="true"></i>
    			</div>
 
    			<h5>Call Me At</h5>
