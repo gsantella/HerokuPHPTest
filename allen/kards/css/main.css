@@ -50,6 +50,10 @@ html {
 	font-size: 10px;
 }
 
+#happyDay {
+	color: coral;
+}
+
 @media only screen and (max-width:1024px) {
 	html {
 		font-size: 9.411764705882353px;

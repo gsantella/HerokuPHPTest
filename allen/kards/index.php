@@ -74,7 +74,7 @@
    			<div class="col-twelve">
 
 	   			<h5>Hello, World.</h5>
-				<p><?= "Happy " . date("l"); ?></p>
+				<p id="happyDay"><?= "Happy " . date("l") . "!" ?></p>
 	   			<h1>I'm Juan Dela Cruz.</h1>
 
 	   			<p class="intro-position">
