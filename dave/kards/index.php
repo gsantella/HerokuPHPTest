@@ -1007,7 +1007,7 @@
 
       	<div class="col-six tab-full">
 	      	<div class="copyright">
-		        	<span>© Copyright Kards <?php echo date('Y');</span> 
+		        	<span>&copy; Copyright Kards <?php echo date('Y');?></span> 
 		        	<span>Design by <a href="http://www.styleshout.com/">styleshout</a></span>	         	
 		         </div>		                  
 	      	</div>
