@@ -74,6 +74,7 @@
    			<div class="col-twelve">
 
 	   			<h5>Hello, World.</h5>
+				<?php string date(string $format [l, int $timestamp = time() ] ?>
 	   			<h1>I'm Juan Dela Cruz.</h1>
 
 	   			<p class="intro-position">
@@ -1003,7 +1004,7 @@
 
       	<div class="col-six tab-full">
 	      	<div class="copyright">
-		        	<span>© Copyright Kards 2016.</span> 
+		        	<span>&copy; Copyright Kards <?php string date(string $format [Y, int $timestamp = time() ] ?>.</span> 
 		        	<span>Design by <a href="http://www.styleshout.com/">styleshout</a></span>	         	
 		         </div>		                  
 	      	</div>
