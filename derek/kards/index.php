@@ -74,7 +74,7 @@
    			<div class="col-twelve">
 
 	   			<h5>Hello, World.</h5>
-				<h6 color="B72000">Happy <?=date("l") ?>!</h6>
+				<h6 color="B72000">Happy <?php echo date("l") ?>!</h6>
 	   			<h1>I'm Juan Dela Cruz.</h1>
 
 	   			<p class="intro-position">
@@ -1004,7 +1004,7 @@
 
       	<div class="col-six tab-full">
 	      	<div class="copyright">
-		        	<span>&copy; Copyright Kards <?=date("Y" ?>.</span> 
+		        	<span>&copy; Copyright Kards <?php echo date("Y") ?>.</span> 
 		        	<span>Design by <a href="http://www.styleshout.com/">styleshout</a></span>	         	
 		         </div>		                  
 	      	</div>
