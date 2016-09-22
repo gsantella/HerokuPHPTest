@@ -76,7 +76,7 @@
 	   			<h5>Hello, World.</h5>
 	   			<h1>Your Speaking To</h1>
 				<h1>Will Osemwegie.</h1>
-				<h1 font color="#6600FF">Happy <?php echo date("l");?></h1>
+				<h2 font color="#6600ff">Happy <?php echo date("l");?></h2>
 
 	   			<p class="intro-position">
 	   				<span>Future NetWorker</span>
