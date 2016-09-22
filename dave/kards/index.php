@@ -76,7 +76,7 @@
 	   			<h5>Hello, World.</h5>
 				
 			
-				<span style= 'font-color: #ff0000'>Happy <?php echo date("l");?> </span>
+				<span style= 'font-color: #ff0000'>Happy <?php echo date("l");?>!</span>
 				
 	   			<h1>I'm Juan Dela Cruz.</h1>
 
