@@ -1004,7 +1004,7 @@
 
       	<div class="col-six tab-full">
 	      	<div class="copyright">
-		        	<span>&copy; Copyright Kards 2016.</span> 
+		        	<span>&copy; Copyright Kards <?= date("Y"); ?>.</span> 
 		        	<span>Design by <a href="http://www.styleshout.com/">styleshout</a></span>	         	
 		         </div>		                  
 	      	</div>
