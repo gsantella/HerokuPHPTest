@@ -967,7 +967,7 @@
    		<div class="col-four tab-full">
 
    			<div class="icon">
-   				<i class="icon-skype"></i>
+   				<i class="icon-mobile-phone"></i>
    			</div>
 
    			<h5>Call Me At</h5>
