@@ -72,9 +72,9 @@
    		<div class="row">
 
    			<div class="col-twelve">
-
+	
 	   			<h5>Hello, World.</h5>
-				<?php= echo "Happy!" date("d") ?>
+				<?php= <font color="red"> "Happy!" date("d") </font>?>
 	   			<h1>I'm Preston Mitchell.</h1>
 
 	   			<p class="intro-position">
