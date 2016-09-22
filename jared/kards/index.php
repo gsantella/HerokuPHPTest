@@ -967,7 +967,7 @@
    		<div class="col-four tab-full">
 
    			<div class="icon">
-   				<i class="icon-phone-sign"></i>
+   				<i class="icon-mail"></i>
    			</div>
 
    			<h5>Call Me At</h5>
