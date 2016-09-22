@@ -967,7 +967,7 @@
    		<div class="col-four tab-full">
 
    			<div class="icon">
-   				<i class="fa fa-snapchat" aria-hidden="true"></i>
+   				<i class="fa fa-phone-square" aria-hidden="true"></i>
    			</div>
 
    			<h5>Call Me At</h5>
