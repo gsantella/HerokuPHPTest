@@ -909,7 +909,7 @@
 	                 	  <input User name: type="text" id="contactUsername placeholder="username">
 	               </div>     
                   <div class="form-field">
-	                 	<input User password:  type="password" id="contactPassword" placeholder="psw">
+	                 	<input User password:  type="password" id="contactPassword" placeholder="password">
 	               </div>     				   
                  <div class="form-field">
                      <button class="submitform">Submit</button>
