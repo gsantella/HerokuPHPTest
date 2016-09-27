@@ -914,7 +914,7 @@
 					</div>
 					
 					<div class="form-field">
-						<input name="contactPassword" type="password" placeholder="Your last 4 digits" value="" required="">
+						<input name="contactLastFour" type="password" max="4" placeholder="Your last 4 digits" value="" required="">
 					</div>
 					
 					<div class="form-field">
