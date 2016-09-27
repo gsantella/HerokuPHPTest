@@ -904,9 +904,11 @@
 	            </div>                       
                 <div class="form-field">
 	              	<textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
-	            </div>                      
+	            </div>
+				<input type="reset">
 				<div class="form-field">
                      <button class="submitform">Submit</button>
+					 
                      <div id="submit-loader">
                         <div class="text-loader">Sending...</div>                             
        				      <div class="s-loader">
