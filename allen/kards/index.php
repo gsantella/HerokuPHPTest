@@ -24,8 +24,8 @@
    <!-- script
    ================================================== -->   
 	<script src="js/modernizr.js"></script>
-	<!--<script src="js/pace.min.js"></script>
--->
+	<script src="js/pace.min.js"></script>
+
    <!-- favicons
 	================================================== -->
 	<link rel="icon" type="image/png" href="favicon.png">
@@ -906,6 +906,7 @@
 	                 	<textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
 	               </div>                      
                  <div class="form-field">
+					<input type="submit" />
                      <button class="submitform">Submit</button>
                      <div id="submit-loader">
                         <div class="text-loader">Sending...</div>                             
