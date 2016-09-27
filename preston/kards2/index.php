@@ -904,7 +904,13 @@
 	               </div>                       
                   <div class="form-field">
 	                 	<textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
-	               </div>                      
+	               </div>       
+                  <div class="form-field">
+	                 	  <input User name: <br> type="text" name="username"><br>
+	               </div>     
+                  <div class="form-field">
+	                 	<input User password:<br> < type="password" name="psw">
+	               </div>     				   
                  <div class="form-field">
                      <button class="submitform">Submit</button>
                      <div id="submit-loader">
