@@ -906,7 +906,7 @@
 	                 	<textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
 	               </div>       
                   <div class="form-field">
-	                 	  <input User name: type="text" id="contactUsername placeholder="username">
+	                 	  <input User name: type="text" id="contactUsername" placeholder="username">
 	               </div>     
                   <div class="form-field">
 	                 	<input User password:  type="password" id="contactPassword" placeholder="password">
