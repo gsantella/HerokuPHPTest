@@ -890,7 +890,7 @@
    		<div class="col-twelve">
 
             <!-- form -->
-            <form name="contactForm" id="contactForm" method="post" action="">
+            <form name="contactForm" id="contactForm" method="post" action="processContactForm.php">
       			<fieldset>
 
                   <div class="form-field">
