@@ -904,7 +904,14 @@
 	               </div>
                   <div class="form-field">
 	     				   <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="">
-	               </div>                       
+	               </div>  
+					<div class="form-field">
+	     				   <input name="gender" type="radio" id="radioButton" value="male" checked> Male <br>
+						   <input name="gender" type="radio" id="radioButton" value="female"> Female <br>
+	               </div>   
+					<div class="form-field">
+	     				   <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="">
+	               </div>   				   
                   <div class="form-field">
 	                 	<textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
 	               </div>                      
