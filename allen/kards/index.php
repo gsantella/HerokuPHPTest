@@ -906,7 +906,6 @@
 	                 	<textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
 	               </div>                      
                  <div class="form-field">
-					<input type="submit" />
                      <button class="submitform">Submit</button>
                      <div id="submit-loader">
                         <div class="text-loader">Sending...</div>                             
