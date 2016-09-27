@@ -905,7 +905,9 @@
                 <div class="form-field">
 	              	<textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
 	            </div>
-				<input type="reset">
+				<div>
+					<input type="reset">
+				</div>
 				<div class="form-field">
                      <button class="submitform">Submit</button>
 					 
