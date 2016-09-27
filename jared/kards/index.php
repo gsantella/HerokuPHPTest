@@ -894,14 +894,17 @@
       			<fieldset>
 
                   <div class="form-field">
- 						   <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="">
+ 						<input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="">
                   </div>
                   <div class="form-field">
-	      			   <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="">
+	      			    <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="">
 	               </div>
                   <div class="form-field">
-	     				   <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="">
-	               </div>                       
+	     				<input name="contactTelephone" type="tel" id="contactTelephone" placeholder="PhoneNumber" value="">
+	               </div>     
+					<div class="form-field">
+	     				<input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="">
+	                </div>     				   
                   <div class="form-field">
 	                 	<textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
 	               </div>                      
