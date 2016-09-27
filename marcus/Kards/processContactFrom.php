@@ -5,23 +5,18 @@ echo "Email: " . $_REQUEST["contactEmail"] . "<br />";
 echo "Subject: " . $_REQUEST["contactSubject"] . "<br />"; 
 echo "Message: " . $_REQUEST["contactMessage"] . "<br />"; 
 
-    <div class="form-field">
-					   <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="">
-                  </div>
-				   <form>
-						<input type="radio" name="gender" value="male" > Male<br>
-						<input type="radio" name="gender" value="female"> Female<br>
-						<input type="radio" name="gender" value="other"> Other
-					</form>                
-                  <div class="form-field">
-	      			   <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="">
-	               </div>
-                  <div class="form-field">
-	     			   <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="">
-	               </div>                       
-                  <div class="form-field">
-					   <textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
-	               </div>                     
+    
+	<form>
+		<input type="radio" name="gender" value="male" > Male<br>
+		<input type="radio" name="gender" value="female"> Female<br>
+		<input type="radio" name="gender" value="other"> Other
+	</form>
+	<form>
+		<input type="radio" name="age" value="20-25" > 20-25<br>
+		<input type="radio" name="age" value="26-31"> 26-31<br>
+		<input type="radio" name="age" value="32-40"> 32-40<br>
+	</form>	
+                 
 
 
 print_r($_REQUEST)
