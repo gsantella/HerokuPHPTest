@@ -898,7 +898,7 @@
 					</div>
 					
 					<div class="form-field">
-						<input list="colorsCar" name="colorCar" placeholder="Color of your car" required="" value=""/>
+						<input list="colorsCar" name="contactCarColor" placeholder="Color of your car" required="" value=""/>
 						<datalist id="colorsCar">
 							<option value="Red" />
 							<option value="Orange" />
@@ -914,7 +914,7 @@
 					</div>
 					
 					<div class="form-field">
-						<input type="password" placeholder="Your last 4 digits" value="" required="">
+						<input name="contactPassword" type="password" placeholder="Your last 4 digits" value="" required="">
 					</div>
 					
 					<div class="form-field">
