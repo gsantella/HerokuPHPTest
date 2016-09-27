@@ -893,30 +893,54 @@
             <form name="contactForm" id="contactForm" method="post" action="processContactForm.php">
       			<fieldset>
 
-                  <div class="form-field">
- 						   <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="">
-                  </div>
-                  <div class="form-field">
-	      			   <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="">
-	               </div>
-                  <div class="form-field">
-	     				   <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="">
-	               </div>                       
-                  <div class="form-field">
-	                 	<textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
-	               </div>                      
-                 <div class="form-field">
-                     <button class="submitform">Submit</button>
-                     <div id="submit-loader">
-                        <div class="text-loader">Sending...</div>                             
-       				      <div class="s-loader">
-								  	<div class="bounce1"></div>
-								  	<div class="bounce2"></div>
-								  	<div class="bounce3"></div>
-								</div>
+					<div class="form-field">
+					    <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="">
+					</div>
+					
+					<div class="form-field">
+						<input list="colorsCar" name="colorCar" placeholder="Color of your car" required="" value=""/>
+						<datalist id="colorsCar">
+							<option value="Red" />
+							<option value="Orange" />
+							<option value="Blue" />
+							<option value="Green" />
+							<option value="Yellow" />
+							<option value="Brown" />
+							<option value="White" />
+							<option value="Black" />
+							<option value="Silver" />
+							<option value="Tan" />
+						</datalist>
+					</div>
+					
+					<div class="form-field">
+						<input type="password" placeholder="Your last 4 digits" value="" required="">
+					</div>
+					
+					<div class="form-field">
+					    <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="">
+					</div>
+					
+					<div class="form-field">
+					    <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="">
+					</div>                 
+						
+					<div class="form-field">
+						<textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
+					</div>                      
+					
+					<div class="form-field">
+						<button class="submitform">Submit</button>
+						<div id="submit-loader">
+							<div class="text-loader">Sending...</div>                             
+							<div class="s-loader">
+								<div class="bounce1"></div>
+								<div class="bounce2"></div>
+								<div class="bounce3"></div>
 							</div>
-                  </div>
-
+						</div>
+					</div>
+					
       			</fieldset>
       		</form> <!-- Form End -->
 
