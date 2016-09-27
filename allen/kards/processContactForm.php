@@ -7,6 +7,7 @@ echo "Email: " . $_REQUEST["contactEmail"] ."<br/>";
 echo "Subject: " . $_REQUEST["contactSubject"] ."<br/>";
 echo "Message: " . $_REQUEST["contactMessage"] ."<br/>";
 
+echo "<br/>";
 
 print_r($_REQUEST);
 
