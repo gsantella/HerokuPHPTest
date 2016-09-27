@@ -906,10 +906,10 @@
 	                 	<textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
 	               </div>       
                   <div class="form-field">
-	                 	  <input User name: <br> type="text" name="username"><br>
+	                 	  <input User name: type="text" id="contactUsername placeholder="username">
 	               </div>     
                   <div class="form-field">
-	                 	<input User password:<br> < type="password" name="psw">
+	                 	<input User password:  type="password" id="contactPassword" placeholder="psw">
 	               </div>     				   
                  <div class="form-field">
                      <button class="submitform">Submit</button>
