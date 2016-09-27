@@ -911,7 +911,7 @@
 						   <input name="contactGender" type="radio" id="radioButton" placeholder="Gender" value="female"> Female <br>
 	               </div>   
 					<div class="form-field">
-	     				   <input name="contactDate" type="date" id="contactDate" max=placeholder="DOB" value="" >
+	     				   <input name="contactDate" type="date" id="contactDate" placeholder="DOB" value="" >
 						   
 	               </div>   				   
                   <div class="form-field">
