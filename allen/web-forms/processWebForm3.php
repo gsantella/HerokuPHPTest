@@ -1,10 +1,4 @@
 <?php
 
-//open file for appending
-$file = fopen("testfile.txt", "a");
-
-//Write POSTed variable "name" to file
-fwrite($file, $_REQUEST["name"]. PHP_EOL);
-
-//Be Nice! - Close the file
-fclose($file);
+$targetFile = basename($_FILES["fileToUpload"]["name"]);
+move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $targetFile);
