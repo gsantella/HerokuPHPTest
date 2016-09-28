@@ -894,6 +894,8 @@
       			<fieldset>
 
                    <div class="form-field">
+				   <input type="radio" name="gender" value="female">Female
+						<input type="radio" name="gender" value="male">Male
 					   <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="">
                   </div>
                   <div class="form-field">
@@ -902,8 +904,7 @@
                   <div class="form-field">
 	     			   <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="">
 	               </div> 
-						<input type="radio" name="gender" value="female">Female
-						<input type="radio" name="gender" value="male">Male
+						
                   <div class="form-field">
 					   <textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
 	               </div>
