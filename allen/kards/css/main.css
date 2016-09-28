@@ -81,7 +81,12 @@ body {
 	color: #6e6e6e;
 }
 
-input #contactCarColor {
+#contactCarColor {
+	background: #151515;
+	color: #6e6e6e;
+}
+
+#colorsCar {
 	background: #151515;
 	color: #6e6e6e;
 }
