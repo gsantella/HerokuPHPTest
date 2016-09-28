@@ -1,3 +1,3 @@
 <?php
 
-print_r($REQUEST);
+print_r($_REQUEST);
