@@ -2383,7 +2383,10 @@
 			}
 
 			#features-wrapper {
-				padding: 3em 20px 3em 20px;
+	padding-top: 0em;
+	padding-right: 20px;
+	padding-bottom: 3em;
+	padding-left: 20px;
 			}
 
 			#banner-wrapper {
@@ -2401,7 +2404,10 @@
 		/* Header */
 
 			#header {
-				padding: 6em 0 4em 0;
+	padding-top: 2em;
+	padding-right: 0;
+	padding-bottom: 0em;
+	padding-left: 0;
 			}
 
 				#header h1 {
