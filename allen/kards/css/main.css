@@ -81,6 +81,11 @@ body {
 	color: #6e6e6e;
 }
 
+input #contactCarColor {
+	background: #151515;
+	color: #6e6e6e;
+}
+
 /**
  * links - (_document-setup.scss)
  * -------------------------------------------------------------------

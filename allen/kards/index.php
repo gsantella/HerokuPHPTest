@@ -899,9 +899,8 @@
 					
 					<div class="form-field">
 						<br/>
-						<input list="colorsCar" name="contactCarColor" placeholder="Color of your car" required="" value=""/>
+						<input id="contactCarColor" list="colorsCar" name="contactCarColor" placeholder="Color of your car" required="" value=""/>
 						<datalist id="colorsCar">
-							<option selected>Select One...</option>
 							<option value="Red" />
 							<option value="Orange" />
 							<option value="Blue" />
