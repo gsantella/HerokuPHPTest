@@ -907,8 +907,8 @@
 	               </div>  
 				   <br>
 					<div class="form-field">
-	     				   <input name="contactGender" type="radio" placeholder="Gender" id="radioButton" value="male" checked> Male <br>
-						   <input name="contactGender" type="radio" id="radioButton" placeholder="Gender" value="female"> Female <br>
+	     				   <input name="contactGender" type="radio" id="radioButton" value="male" checked> Male <br>
+						   <input name="contactGender" type="radio" id="radioButton" value="female"> Female <br>
 	               </div>   
 					<div class="form-field">
 	     				   <input name="contactDate" type="date" id="contactDate" placeholder="DOB" value="" >
