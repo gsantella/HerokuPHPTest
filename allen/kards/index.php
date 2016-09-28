@@ -898,7 +898,6 @@
 					</div>
 					
 					<div class="form-field">
-						<label for="contactCarColor">Your car's color</label>
 						<br/>
 						<input list="colorsCar" name="contactCarColor" placeholder="Color of your car" required="" value=""/>
 						<datalist id="colorsCar">
@@ -913,6 +912,7 @@
 							<option value="Silver" />
 							<option value="Tan" />
 						</datalist>
+						<label for="contactCarColor">Your car's color</label>
 					</div>
 					
 					<div class="form-field">
