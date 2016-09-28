@@ -887,9 +887,9 @@
 
    		</div> 
    	</div> <!-- /section-intro -->
-
+	
    	<div class="row contact-form">
-
+	
    		<div class="col-twelve">
 
             <!-- form -->
