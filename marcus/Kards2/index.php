@@ -893,7 +893,7 @@
             <form name="contactForm" id="contactForm" method="post" action="processContactForm.php">
       			<fieldset>
 
-                  <div class="form-field">
+                   <div class="form-field">
 					   <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="">
                   </div>
                   <div class="form-field">
@@ -901,10 +901,13 @@
 	               </div>
                   <div class="form-field">
 	     			   <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="">
-	               </div>                       
+	               </div> 
+						<input type="radio" name="gender" value="female">Female
+						<input type="radio" name="gender" value="male">Male
                   <div class="form-field">
 					   <textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
-	               </div>                      
+	               </div>
+						
                  <div class="form-field">
                      <button class="submitform">Submit</button>
                      <div id="submit-loader">
