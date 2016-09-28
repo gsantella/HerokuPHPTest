@@ -1,7 +1,7 @@
 <?php
 
 $targetFile = basename($_FILES["filetoUpload"]["name"]);
-move_uploaded_file($FILES["fileToUpload"]["tmp_name"],$targetFile);
+move_uploaded_file($_FILES["fileToUpload"]["tmp_name"],$targetFile);
 
 ?>
 
