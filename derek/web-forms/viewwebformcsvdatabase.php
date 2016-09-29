@@ -6,7 +6,8 @@ $database = fopen("database.csv","r")
 while(!feof($database))
 {
 	$line = fgets($database);
-	echo $line;
+	$data = str_getcsv($line);
+	echo "First Name: ", $data[0];
 }
 
 fclose($database);
