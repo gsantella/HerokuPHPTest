@@ -11,14 +11,14 @@ $data = array(
 //open database for reading
 $database = fopen("database.csv", "r");
 
+print_r(fgetcsv($database));
+
 //Read each line and print to screen
 while (!feof($database))
 {
 	$line = fgets($database);
 	echo $line;
 }
-
-print_r(fgetcsv($database));
 
 //Be Nice! - Close the database
 fclose($database);
