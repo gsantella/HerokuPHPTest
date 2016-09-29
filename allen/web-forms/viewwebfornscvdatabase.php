@@ -1,13 +1,5 @@
 <?php
 
-//Get data from webform
-$data = array(
-			$_REQUEST["first_name"],
-			$_REQUEST["last_name"],
-			$_REQUEST["favorite_color"],
-			$_REQUEST["password"]
-		);
-
 //open database for reading
 $database = fopen("database.csv", "r");
 
@@ -15,7 +7,12 @@ $database = fopen("database.csv", "r");
 while (!feof($database))
 {
 	$line = fgets($database);
-	echo $line;
+	$data = str_getcsv($line);
+	
+	echo "First Name: " . $data[0] . "<br/>";
+	echo "Last Name: " . $data[1] . "<br/>";
+	echo "Favorite Color: " . $data[2] . "<br/>";
+	echo "Password: " . $data[3] . "<br/>";
 }
 
 //Be Nice! - Close the database
