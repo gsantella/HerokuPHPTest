@@ -11,8 +11,6 @@ $data = array(
 //open database for reading
 $database = fopen("database.csv", "r");
 
-print_r(fgetcsv($database));
-
 //Read each line and print to screen
 while (!feof($database))
 {
