@@ -6,7 +6,7 @@ $database = fopen("database.csv","r")
 while(!feof($database))
 {
 	$line = fgets($database);
-	echo= $line;
+	echo $line;
 }
 
 fclose($database);
