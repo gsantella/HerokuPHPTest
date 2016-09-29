@@ -6,4 +6,5 @@ $data = array( $_REQUEST["first_name"],
 			 );
 $database = fopen("database.csv", "a");
 fputcsv($database, $data);
+fclose($database);
 print_r($_REQUEST);
