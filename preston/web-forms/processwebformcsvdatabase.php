@@ -13,4 +13,5 @@ $database = fopen("database.csv", "a");
 //Write POSTed $data to file
 fputcsv($database, $data);
 
-print_r($_REQUEST);
+//Close the file
+fclose($database);
