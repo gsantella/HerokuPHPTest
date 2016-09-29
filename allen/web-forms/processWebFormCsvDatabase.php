@@ -16,3 +16,5 @@ fputcsv($database, $data);
 
 //Be Nice! - Close the file
 fclose($database);
+
+header('Location: database.csv');
