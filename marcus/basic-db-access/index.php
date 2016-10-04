@@ -25,7 +25,7 @@
 				<td class="text-left"><?= $row["id"]; ?></td>
 				<td class="text-left"><?= $row["first_name"]; ?></td>
 				
-			</tr>
+			
 			</tr>
 		<?php endforeach; ?>
 	</tbody class="table-hover">
