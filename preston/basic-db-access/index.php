@@ -22,14 +22,13 @@
 	<tr>
 		<th class="text-left">ID</th>
 		<th class="text-left">First Name</th>
-		<th class="text-left">First Name</th>
+		<t
 	</tr>
 	</thead>
 	<tbody class="table-hover">
 	<?php foreach($result as $row): ?>
 		<tr>
 			<td class="text-left"><?= $row["id"]; ?></td>
-			<td class="text-left"><?= $row["first_name"]; ?></td>
 			<td class="text-left"><?= $row["first_name"]; ?></td>
 		</tr>
 	<?php endforeach; ?>
