@@ -7,3 +7,6 @@
 	
 	insert("INSERT INTO students (first_name) VALUES ('$firstName') ");
 	
+	$stmt= $database->prepare("INSERT INTO students (first_name) VALUES ('$firstName');")
+	$stmt-> execute(['first_name' => $firstName]);
+}
