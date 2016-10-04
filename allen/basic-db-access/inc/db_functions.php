@@ -16,11 +16,15 @@
 	//IGNORE FOR NOW
 
 	function insert($sql) {
-		//$pdo = $database
-		$stmt = $database->prepare($sql);
-		$stmt->execute();
+		try {
+			//$pdo = $database
+			$stmt = $database->prepare($sql);
+			$stmt->execute('first_name');
+		}
+		catch (Exception $e) {
+			echo ( $e->getMessage() );
+		}
 	}
-
 
 
 
