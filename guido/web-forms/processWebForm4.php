@@ -10,9 +10,10 @@ $dsn = "pgsql:dbname=$db;host=$host;user=$user;password=$pass";
 $database = new PDO($dsn);
 
 //Run a INSERT SQL Statement
+$id = $_REQUEST["id"];
 $name = $_REQUEST["name"];
-$stmt = $database->prepare("INSERT INTO students(first_name) VALUES(?)");
-$stmt->execute(array($name));
+$stmt = $database->prepare("INSERT INTO students(id, first_name) VALUES(?, ?);");
+$stmt->execute(array($id, $name));
 
 //Display affected rows
 $affected_rows = $stmt->rowCount();
