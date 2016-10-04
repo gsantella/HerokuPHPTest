@@ -1,28 +1,54 @@
-<?php 
-//Create connection by logging in and selecting database
-$host = "ec2-23-21-234-201.compute-1.amazonaws.com";
-$db = "ddf1ndt04b3tti";
-$user = "fpkkqmtaywxfwm";
-$pass = "dbEE8plG9zaS_QCcVzZeD7maqU";
-
-$dsn = "pgsql:dbname=$db;host=$host;user=$user;password=$pass";
-$database = new PDO($dsn);
-
-//Run a SELECT SQL Statement to get results
-$result = $database->query("SELECT * FROM students;")->fetchAll(PDO::FETCH_ASSOC);
-
-//Close connection 
-//Ignore for now
-?>
-<!DOCTYPE HTML>
+<?php include("inc/db_functions.php"); ?>
+<!DOCTYPE html>
 <html>
 
 <head>
 	<title>Basic Database Access</title>
+	<link rel="stylesheet" href="css/main.css" />
 </head>
 
 <body>
-	<?php print_r($result); ?>
+	<?= $result[0]["first_name"]; ?>
+	
+	<div class="table-title">
+		<h3>Data Table</h3>
+	</div>
+	<table class="table-fill">
+		<thead>
+			<tr>
+				<th class="text-left">Id</th>
+				<th class="text-left">First Name</th>
+			</tr>
+		</thead>
+		<tbody class="table-hover">
+			<?php foreach($result as $row): ?>
+				<tr>
+					<td class="text-left"><?= $row["id"]; ?></td>
+					<td class="text-left"><?= $row["first_name"]; ?></td>
+				</tr>
+			<?php endforeach; ?>
+		</tbody>
+	</table>
+	
+	<p>The number of rows in the table: <?= $result->rowCount(); ?></p>
+	
+	<table>
+		<tr>
+			<td>1</td>
+			<td>Ford</td>
+			<td>Focus</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>Ford</td>
+			<td>Fusion</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>Ford</td>
+			<td>F150</td>
+		</tr>
+	</table>
 </body>
 
 </html>
