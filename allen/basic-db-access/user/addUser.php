@@ -6,7 +6,7 @@
 		
 		include("http://desolate-lake-64893.herokuapp.com/allen/basic-db-access/inc/db_functions.php");
 		
-		insert("INSERT INTO students (first_name) VALUES ('$firstName') ");
+		insert($firstName);
 		
 		//Header("Location: ../");
 	}

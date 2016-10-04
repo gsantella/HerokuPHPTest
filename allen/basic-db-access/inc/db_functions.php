@@ -15,26 +15,15 @@
 	//Close connection
 	//IGNORE FOR NOW
 
-	function insert($sql) {
+	function insert($firstName) {
 		try {
-			//$pdo = $database
-			$stmt = $database->prepare($sql);
-			$stmt->execute('first_name');
+			$stmt = $database->prepare("INSERT INTO students (first_name) VALUES ('$firstName');")
+			$stmt->execute(['first_name' => $firstName]);
 		}
 		catch (Exception $e) {
 			echo ( $e->getMessage() );
 		}
 	}
-
-
-
-
-
-
-
-
-
-
 
 
 ?>
