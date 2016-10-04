@@ -6,7 +6,8 @@
 		
 		include("http://desolate-lake-64893.herokuapp.com/allen/basic-db-access/inc/db_functions.php");
 		
-		insert($firstName);
+		$stmt = $database->prepare("INSERT INTO students (first_name) VALUES ('$firstName');")
+		$stmt->execute(['first_name' => $firstName]);
 		
 		//Header("Location: ../");
 	}

@@ -15,15 +15,4 @@
 	//Close connection
 	//IGNORE FOR NOW
 
-	function insert($firstName) {
-		try {
-			$stmt = $database->prepare("INSERT INTO students (first_name) VALUES ('$firstName');")
-			$stmt->execute(['first_name' => $firstName]);
-		}
-		catch (Exception $e) {
-			echo ( $e->getMessage() );
-		}
-	}
-
-
 ?>
