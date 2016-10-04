@@ -7,8 +7,7 @@
 </head>
 
 <body>
-<<<<<<< HEAD
-<<<<<<< HEAD:dave/web-forms/webformcsvdatabase.html
+
 <a href="viewwebformcsvdatabase.php">View Data</a>
 	<form method="post" action=viewwebformcsvdatabase.php>
 =======
