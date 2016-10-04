@@ -29,29 +29,11 @@
 		<tr>
 			<td class="text-left"><?= $row["id"]; ?></td>
 			<td class="text-left"><?= $row["first_name"]; ?></td>
+			<td class="text-left"><?= $row["first_name"]; ?></td>
 		</tr>
 	<?php endforeach; ?>
 	</table>
 
-	<p> The number of rows in the table: <? $result->rowCount(); ?></p>
-	
-	<table>
-		<tr>
-			<td>1</td>
-			<td>Ford</td>
-			<td>Focus</td>
-		</tr>
-			<td>2</td>
-			<td>Ford</td>
-			<td>Focus</td>
-		<tr>
-			<td>3</td>
-			<td>Ford</td>
-			<td>Focus</td>		
-		</tr>
-		
 
-		
-	</table>
 
 </html>
