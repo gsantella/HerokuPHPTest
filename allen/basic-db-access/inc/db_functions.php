@@ -15,4 +15,22 @@ $result = $database->query("SELECT * FROM students;")->fetchAll(PDO::FETCH_ASSOC
 //Close connection
 //IGNORE FOR NOW
 
+function insert($sql){
+	//$pdo = $database
+	$stmt = $database->prepare($sql);
+	$stmt->execute();
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 ?>
