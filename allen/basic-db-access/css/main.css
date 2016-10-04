@@ -142,3 +142,13 @@ td.text-center {
 td.text-right {
   text-align: right;
 }
+
+
+/* My Styles */
+body {
+	text-align: center;
+}
+
+#addPerson {
+	text-align: center;
+}

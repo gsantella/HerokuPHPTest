@@ -26,8 +26,8 @@
 			</tbody>
 		</table>
 		
-		<p>
-			<form action="user/adduser">
+		<p id="addPerson">
+			<form action="user/addUser.php" method="post">
 				<input type="text" name="firstName" />
 				<input type="submit" value="Add Person" />
 			</form>
