@@ -11,7 +11,7 @@ $database = new PDO($dsn);
 
 //Run a INSERT SQL Statement
 $name = $_REQUEST["name"];
-$stmt = $database->prepare("INSERT INTO students(name) VALUES(?)");
+$stmt = $database->prepare("INSERT INTO students(first_name) VALUES(?)");
 $stmt->execute(array($name));
 
 //Display affected rows
