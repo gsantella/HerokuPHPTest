@@ -25,5 +25,12 @@
 				<?php endforeach; ?>
 			</tbody>
 		</table>
+		
+		<p>
+			<form action="user/adduser">
+				<input type="text" name="firstName" />
+				<input type="submit" value="Add Person" />
+			</form>
+		</p>
 	</body>
 </html>
