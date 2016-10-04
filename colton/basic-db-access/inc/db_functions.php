@@ -13,4 +13,11 @@ $result = $database->query("SELECT * FROM students;")->fetchALL(PDO::FETCH_ASSOC
 
 //Close connection (logout)
 //Ignore for now 
-?>
+
+function insert ($sql){
+	//$pdo = $database 
+	$stmt= $database->prepare ($sql);
+	$stmt-> execute();
+}
+
+
