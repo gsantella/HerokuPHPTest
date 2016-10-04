@@ -145,6 +145,10 @@ td.text-right {
 
 
 /* My Styles */
+body {
+	text-align: center;
+}
+
 #addPerson {
 	text-align: center;
 }
