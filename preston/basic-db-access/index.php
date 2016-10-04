@@ -22,6 +22,7 @@
 	<tr>
 		<th class="text-left">ID</th>
 		<th class="text-left">First Name</th>
+		<th class="text-left">First Name</th>
 	</tr>
 	</thead>
 	<tbody class="table-hover">
