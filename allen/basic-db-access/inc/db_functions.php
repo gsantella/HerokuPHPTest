@@ -9,6 +9,17 @@
 			//POST Gress
 	$database = new PDO($dsn);
 
+	function insert($name) {
+		$stmt= $database->prepare("INSERT INTO students (first_name) VALUES (:firstValue);");
+		$stmt->bindParam(':firstValue', $name);
+		$stmt->execute();
+	}
+	
+	function deleteFrom($id) {
+		$stmt= $database->prepare("DELETE FROM students WHERE id = :id;");
+		$stmt->bindParam(':id', $id);
+		$stmt->execute();
+	}
 	
 	//Close connection
 	//IGNORE FOR NOW

@@ -32,9 +32,16 @@
 		</table>
 		
 		<p id="addPerson">
+			Add:
 			<form action="user/addUser.php" method="post">
 				<input type="text" name="firstName" />
 				<input type="submit" value="Add Person" />
+			</form>
+			
+			Delete by id:
+			<form action="user/deleteUser.php" method="post">
+				<input type="text" name="delId" />
+				<input type="submit" value="Remove Person" />
 			</form>
 		</p>
 	</body>
