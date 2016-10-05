@@ -18,8 +18,15 @@
 	function deleteFrom($id) {
 		echo $id;
 		$stmt= $database->prepare("DELETE FROM students WHERE id = :id");
-		$stmt->bindValue(':id', $id, PDO::PARAM_INT);
-		$stmt->execute();
+		
+		//, PDO::PARAM_INT
+		$stmt->bindValue(':id', $id);
+		//$stmt->execute();
+		
+		if (!$stmt) {
+			echo "\nPDO::errorInfo():\n";
+			print_r($database->errorInfo());
+		}
 	}
 	
 	//Close connection
