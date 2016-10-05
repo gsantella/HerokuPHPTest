@@ -12,7 +12,7 @@ $database = new PDO($dsn);
 
 
 
-$pdo->prepare("INSERT INTO users VALUES (NULL,?,?,?,?)")->execute();
+$pdo->prepare("INSERT INTO students VALUES($_REQUEST['name'])")->execute();
 
 
 //Close Connection
