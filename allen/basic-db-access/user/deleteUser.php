@@ -11,5 +11,5 @@
 	}
 	else
 	{
-		echo "The firstName was not passed!";
+		echo "The ID Number was not passed!";
 	}
