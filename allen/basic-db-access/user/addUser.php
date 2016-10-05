@@ -10,9 +10,9 @@
 		
 		echo $firstName;
 		
-		//$stmt= $database->prepare("INSERT INTO students (firstName) VALUES (:firstValue);");
-		//$stmt->bindParam(':firstValue', $firstName);
-		//$stmt->execute();
+		$stmt= $database->prepare("INSERT INTO students (first_name) VALUES (:firstValue);");
+		$stmt->bindParam(':firstValue', $firstName);
+		$stmt->execute();
 		
 		//Header("Location: ../");
 	}
