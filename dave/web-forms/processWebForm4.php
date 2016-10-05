@@ -14,7 +14,7 @@ $data = array($_REQUEST['name']);
 
 echo $_REQUEST["name"];
 
-$database->prepare("INSERT INTO students(name) VALUES (?)")->execute($data);
+$database->prepare("INSERT INTO students(first_name) VALUES (?)")->execute($data);
 
 
 //Close Connection
