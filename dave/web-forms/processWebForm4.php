@@ -16,6 +16,8 @@ echo $_REQUEST["name"];
 
 $database->prepare("INSERT INTO students(first_name) VALUES (?)")->execute($data);
 
+//Run a SELECT SQL Statement To Get Results
+$result = $database->query("SELECT * FROM students;")->fetchAll(PDO::FETCH_ASSOC);
 
 //Close Connection
 //Ignore For Now . . 
