@@ -6,9 +6,7 @@
 		
 		include("http://desolate-lake-64893.herokuapp.com/allen/basic-db-access/inc/db_functions.php");
 		
-		echo($firstName);
-		
-		if($stmt = $database->query("INSERT INTO students (first_name) VALUES ('$firstName');"))
+		if($database->query("INSERT INTO students (first_name) VALUES ('$firstName');"))
 		{
 			echo("Query was successful");
 		}
