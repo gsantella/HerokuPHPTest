@@ -8,8 +8,14 @@
 		
 		echo($firstName);
 		
-		//$stmt = $database->prepare("INSERT INTO students (first_name) VALUES ('$firstName');")
-		//$stmt->execute(['first_name' => $firstName]);
+		if($stmt = $database->query("INSERT INTO students (first_name) VALUES ('$firstName');"))
+		{
+			echo("Query was successful");
+		}
+		else
+		{
+			echo "Query unsuccessful.";
+		}
 		
 		//Header("Location: ../");
 	}
