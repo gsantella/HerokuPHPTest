@@ -10,11 +10,11 @@ $dsn = "pgsql:dbname=$db;host=$host;user=$user;password=$pass";
 $database = new PDO($dsn);
 
 
-$data = $_REQUEST["name"];
+$data = array($_REQUEST["name"]);
 
 echo $_REQUEST["name"];
 
-$pdo->prepare("INSERT INTO students VALUES (name)(NULL,?,?,?,?)")->execute($data);
+$pdo->prepare("INSERT INTO students VALUES (name)(?)")->execute($data);
 
 
 //Close Connection
