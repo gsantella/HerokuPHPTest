@@ -1,4 +1,4 @@
-<?php
+<?php include ("inc")
 
 //swassssss
 //Create connection by logging in and selecting database 
