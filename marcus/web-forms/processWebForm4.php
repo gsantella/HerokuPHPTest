@@ -1,28 +1,18 @@
-<DOCTYPE html>
+<?php
 
-<html>
+//Open the database
+$database = fopen("database.csv", "r");
 
-<head>
-	<title>Basic Webform With CSV Database</title>
-</head>
+//Read each line and print to screen
+while(!feof($database))
+{
+	$line = fgets($database);
+	$data = str_getcsv($line);
+	echo "First Name: ". $data[0]; . "<br />";
+	echo "Address: ". $data[1]; . "<br />";
+	echo "Favorite Color: ". $data[2]; . "<br />";
+	echo "Password: ". $data[3]; . "<br />";
+}
 
-<body>
-
-<a href="viewwebformcsvdatabase.php">View Data</a>
-	<form method="post" action=viewwebformcsvdatabase.php>
-=======
-=======
-	<a href="viewWebFormcsvdatabase.php">View Data</a>
->>>>>>> origin/master
-	<form method="post" action="processWebFormcsvdatabase.php">
->>>>>>> origin/master:marcus/web-forms/webformcsvdatabase.html
-		Enter Your First Name <input type="text" name="first_name" /><br />
-		Enter Your Last Name <input type="text" name="last_name" /><br />
-		Enter Your Address <input type="text" name="address" /><br />
-		Enter Your Favorite Color <input type="text" name="favorite_color" /><br />
-		Enter Your Password <input type="password" name="password" /><br />
-		<input type="submit"  value="Submit" /><br />
-	</form>
-</body>
-	
-</html>
+//Close the database
+fclose($datbase);
