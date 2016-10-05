@@ -7,7 +7,15 @@
 		include("http://desolate-lake-64893.herokuapp.com/allen/basic-db-access/inc/db_functions.php");
 		
 		$stmt= $database->prepare("INSERT INTO students (firstName) VALUES (':firstValue');");
-		$stmt->execute(['firstValue' => $firstName]);
+		
+		if($stmt->execute(['firstValue' => $firstName]))
+		{
+			echo "Successful";
+		}
+		else
+		{
+			echo "Unsuccessful";
+		}
 
 		//Header("Location: ../");
 	}
