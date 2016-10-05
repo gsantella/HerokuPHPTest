@@ -7,7 +7,7 @@
 		
 		deleteFrom($id);
 		
-		Header("Location: ../");
+		//Header("Location: ../");
 	}
 	else
 	{

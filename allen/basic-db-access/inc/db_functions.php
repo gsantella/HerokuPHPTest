@@ -16,15 +16,10 @@
 	}
 	
 	function deleteFrom($id) {
+		echo $id;
 		$stmt= $database->prepare("DELETE FROM students WHERE id = :id");
-		$stmt->bindParam(':id', $id);
-		
-		//$stmt->execute()
-		if(!$stmt)
-		{
-			echo "\nPDO::errorInfo():\n";
-			print_r($database->errorInfo());
-		}
+		$stmt->bindValue(':id', $id);
+		$stmt->execute();
 	}
 	
 	//Close connection
