@@ -18,7 +18,7 @@
 	
 	function deleteFrom($id) {
 		$stmt= $database->prepare("DELETE FROM students WHERE id = :id");
-		$stmt->bindValue(':id', $id, PDO::PARAM_STR);
+		$stmt->bindValue(':id', $id);
 		$stmt->execute();
 		$affected_rows = $stmt->rowCount();
 	}
