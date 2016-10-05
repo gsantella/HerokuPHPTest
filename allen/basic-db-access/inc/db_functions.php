@@ -13,14 +13,12 @@
 		$stmt= $database->prepare("INSERT INTO students (first_name) VALUES (:firstValue);");
 		$stmt->bindParam(':firstValue', $name);
 		$stmt->execute();
-		$affected_rows = $stmt->rowCount();
 	}
 	
 	function deleteFrom($id) {
-		$stmt= $database->prepare("DELETE FROM students WHERE id = :id");
+		$stmt= $database->prepare("DELETE FROM students WHERE id = :id;");
 		$stmt->bindValue(':id', $id);
 		$stmt->execute();
-		$affected_rows = $stmt->rowCount();
 	}
 	
 	//Close connection
