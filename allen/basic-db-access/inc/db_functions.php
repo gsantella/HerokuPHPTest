@@ -9,9 +9,7 @@
 			//POST Gress
 	$database = new PDO($dsn);
 
-	//Run a SELECT SQL statement to get results
-	$result = $database->query("SELECT * FROM students;")->fetchAll(PDO::FETCH_ASSOC);
-
+	
 	//Close connection
 	//IGNORE FOR NOW
 
