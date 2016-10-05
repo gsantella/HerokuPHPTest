@@ -9,12 +9,12 @@ $pass = "dbEE8plG9zaS_QCcVzZeD7maqU";
 $dsn = "pgsql:dbname=$db;host=$host;user=$user;password=$pass";
 $database = new PDO($dsn);
 
-
-$data = array($_REQUEST['name']);
+$id = array($_REQUEST['id']);
 
 echo $_REQUEST["name"];
 
-$database->prepare("INSERT INTO students(first_name) VALUES (?)")->execute($data);
+$database->prepare("DELETE FROM students WHERE id = ?")->execute([$id]);
+
 
 //Close Connection
 //Ignore For Now . . 
