@@ -7,9 +7,11 @@ $pass = "dbEE8plG9zaS_QCcVzZeD7maqU";
 
 $dsn = "pgsql:dbname=$db;host=$host;user=$user;password=$pass";
 $database = new PDO($dsn);
-//Run a SELECT SQL Statement to get results
-$result = $database->query("INSERT * FROM students;")->fetchAll(PDO::FETCH_ASSOC);
 
-//Close Connection
-//Ignore for now
+$data = array($_REQUEST["first_name"]);
+
+$stmt = $database->prepare("INSERT INTO students(first_name) VALUE(?)");
+$stmt->execute($data);
+
+
 
