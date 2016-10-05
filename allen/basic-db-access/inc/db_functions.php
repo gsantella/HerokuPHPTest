@@ -16,7 +16,6 @@
 	}
 	
 	function deleteFrom($id) {
-		echo $id;
 		$stmt= $database->prepare("DELETE FROM students WHERE id = :id");
 		$stmt->execute(array(':id' => $id));
 	}
