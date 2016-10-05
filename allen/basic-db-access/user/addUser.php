@@ -1,14 +1,18 @@
 <?php
 
+	include("../inc/db_functions.php");
+
+	echo $dsn;
+	
 	if(isset($_POST['firstName']))
 	{
 		$firstName = $_POST['firstName'];
 		
-		include("http://desolate-lake-64893.herokuapp.com/allen/basic-db-access/inc/db_functions.php");
+		echo $firstName;
 		
-		$stmt= $database->prepare("INSERT INTO students (firstName) VALUES (:firstValue);");
-		$stmt->bindParam(':firstValue', $firstName);
-		$stmt->execute();
+		//$stmt= $database->prepare("INSERT INTO students (firstName) VALUES (:firstValue);");
+		//$stmt->bindParam(':firstValue', $firstName);
+		//$stmt->execute();
 		
 		//Header("Location: ../");
 	}
