@@ -50,7 +50,9 @@
 		<p id="modifyPerson">
 			Modify:
 			<form action="user/modifyUser.php" method="post">
+				Id:<br/>
 				<input type="text" name="modId" />
+				Name:<br/>
 				<input type="text" name="modName" />
 				<input type="submit" value="Modify Person" />
 			</form>
