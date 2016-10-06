@@ -896,6 +896,18 @@
                   <div class="form-field">
  						   <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="">
                   </div>
+				  <div class="form-field">
+					<form>
+					  <input type="radio" name="gender" value="male" checked> Male<br>
+					  <input type="radio" name="gender" value="female"> Female<br>
+					</form>
+				  </div>
+				  <div class="form-field">
+					<form>
+					  <input type="checkbox" name="YES" value="Bike"> send me an email<br>
+					  <input type="checkbox" name="NO" value="Car"> Do Not send me an email
+					</form>
+				  </div>
                   <div class="form-field">
 	      			   <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="">
 	               </div>
