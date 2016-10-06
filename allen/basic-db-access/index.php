@@ -44,6 +44,8 @@
 				<input type="submit" value="Add Person" />
 			</form>
 		</p>
+
+                <!-- No longer need 
 		
 		<p id="deletePerson">
 			Delete by id:
@@ -63,5 +65,7 @@
 				<input type="submit" value="Modify Person" />
 			</form>
 		</p>
+
+                -->
 	</body>
 </html>
