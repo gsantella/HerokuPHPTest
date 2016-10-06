@@ -11,7 +11,7 @@ $database = new PDO($dsn);
 
 $data = array($_REQUEST['id']);
 
-$database->prepare("DELETE FROM students WHERE id = ?")->execute([$data]);
+$database->prepare("DELETE FROM students WHERE id = ?")->execute($data);
 
 //Close connection
 //IGNORE FOR NOW
