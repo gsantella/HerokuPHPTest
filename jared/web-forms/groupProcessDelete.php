@@ -9,9 +9,9 @@ $dsn = "pgsql:dbname=$db;host=$host;user=$user;password=$pass";
 	    //POST Gress
 $database = new PDO($dsn);
 
-$data = array($_REQUEST["id"]);
+$data = array($_REQUEST['id']);
 
-$database->prepare("DELETE FROM student WHERE id = ?")->execute([$data]);
+$database->prepare("DELETE FROM students WHERE id = ?")->execute([$data]);
 
 //Close connection
 //IGNORE FOR NOW
