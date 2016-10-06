@@ -16,8 +16,15 @@
 	}
 	
 	function deleteFrom($id) {
-		$stmt= $database->prepare("DELETE FROM 'students' WHERE 'id' = :id;");
-		$stmt->bindValue(':id', $id);
+		$stmt= $database->prepare("DELETE FROM students WHERE id=:id ");
+		$stmt->bindValue(':id', $id, PDO::PARAM_INT);
+		$stmt->execute();
+	}
+	
+	function modify($id, $name){
+		$stmt= $database->prepare("UPDATE students SET first_name=':name' WHERE id=:id ");
+		$stmt->bindValue(':name', $name);
+		$stmt->bindValue(':id', $id, PDO::PARAM_INT);
 		$stmt->execute();
 	}
 	

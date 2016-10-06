@@ -38,11 +38,21 @@
 				<input type="submit" value="Add Person" />
 			</form>
 		</p>
+		
 		<p id="deletePerson">
 			Delete by id:
 			<form action="user/deleteUser.php" method="post">
 				<input type="text" name="delId" />
 				<input type="submit" value="Remove Person" />
+			</form>
+		</p>
+		
+		<p id="modifyPerson">
+			Modify:
+			<form action="user/modifyUser.php" method="post">
+				<input type="text" name="modId" />
+				<input type="text" name="modName" />
+				<input type="submit" value="Modify Person" />
 			</form>
 		</p>
 	</body>
