@@ -33,7 +33,7 @@
 		<tr>
 			<td class="text-left"><?= $row["id"]; ?></td>
 			<td class="text-left"><?= $row["first_name"]; ?></td>
-			<td class="text-left"><a href="">Delete</a></td>
+			<td class="text-left"><a href="deletewebform.php?id=<?= $row["id"];?>">Delete</a></td>
 		</tr>
 	<?php endforeach; ?>
 	</table>
