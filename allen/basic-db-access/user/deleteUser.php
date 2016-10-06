@@ -1,9 +1,9 @@
 <?php
 	include("../inc/db_functions.php");
 	
-	if(isset($_POST['delId']))
+	if(isset($_REQUEST['delId']))
 	{
-		$id = $_POST['delId'];
+		$id = $_REQUEST['delId'];
 		
 		deleteFrom($id);
 	
