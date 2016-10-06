@@ -63,10 +63,9 @@
 	<p>
 		What would you like to modify this name to?
 		
-		<form method="get">
-			<input type="text" name="modNameGet" />
-			<input type="hidden" name="modId" value="<?= $row['id']; ?>" />
-			<input type="hidden" name="change" value="1" />
+		<form action='../user/modifyUser.php?change=1' method="post">
+			<input type="text" name="modNameGet" value='<?= $_REQUEST['oldName']; ?>' />
+			<input type="hidden" name="modId" value="<?= $_REQUEST['modId']; ?>" />
 			<input type="submit" value="Change Name" />
 		</form>
 	</p>
