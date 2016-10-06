@@ -16,9 +16,11 @@
 	}
 	
 	function deleteFrom($id) {
-		$stmt= $database->prepare("DELETE FROM students WHERE id = :id;");
-		$stmt->bindValue(':id', $id);
-		$stmt->execute();
+		$result = $database->query("DELETE FROM students WHERE id = $id");
+		
+		//$stmt= $database->prepare("DELETE FROM students WHERE id = :id;");
+		//$stmt->bindValue(':id', $id);
+		//$stmt->execute();
 	}
 	
 	//Close connection
