@@ -5,7 +5,9 @@
 	{
 		$id = $_REQUEST['delId'];
 		
-		deleteFrom($id);
+		$stmt= $database->prepare("DELETE FROM students WHERE id=:id ");
+		$stmt->bindValue(':id', $id, PDO::PARAM_INT);
+		$stmt->execute();
 	
 		Header("Location: ../");
 	}

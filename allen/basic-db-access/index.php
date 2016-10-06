@@ -18,6 +18,7 @@
 				<tr>
 					<th class="text-left">Id</th>
 					<th class="text-left">First Name</th>
+					<th class="text-left">Operations</th>
 				</tr>
 			</thead>
 			
