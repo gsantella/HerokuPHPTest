@@ -14,9 +14,6 @@ $result = $database->query("SELECT * FROM students;")->fetchALL(PDO::FETCH_ASSOC
 //Close connection (logout)
 //Ignore for now 
 
-function insert ($sql){
-	$stmt= $database->prepare("INSERT INTO students (first_name) VALUES ('$firstName');")
-	$stmt-> execute(['first_name' => $firstName]);
-}
+
 
 
