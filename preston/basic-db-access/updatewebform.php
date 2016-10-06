@@ -8,9 +8,9 @@ $pass= "dbEE8plG9zaS_QCcVzZeD7maqU";
 $dsn = "pgsql:dbname=$db;host=$host;user=$user;password=$pass";
 $database = new PDO($dsn);
 
-$data = array($_REQUEST["first_name"],["id"]);
+$data = array($_REQUEST["first_name"],$_REQUEST["id"]);
 
-$stmt = $database->prepare("UPDATE students SET first_name=?  WHERE id=?");
+$stmt = $database->prepare("UPDATE students SET first_name=? WHERE id=?");
 $stmt->execute($data);
 
 ?>
