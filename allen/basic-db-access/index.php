@@ -29,7 +29,7 @@
 						<td class="text-left"><?= $row["first_name"]; ?></td>
 						<td class="text-left">
 							<a href='user/deleteUser.php?delId=<?= $row["id"]; ?>'>Delete</a>
-							<br/>
+							<br/><br/>
 							<a href='user/modifyUser.php?modId=<?= $row["id"]; ?>&change=1'>Modify</a>
 						</td>
 					</tr>
