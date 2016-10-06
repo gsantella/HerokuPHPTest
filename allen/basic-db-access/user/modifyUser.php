@@ -25,7 +25,7 @@
 	}
 	else
 	{
-		if(isset($_REQUEST['modId']))
+		/*if(isset($_REQUEST['modId']))
 		{
 			$id = $_REQUEST['modId'];
 			
@@ -39,7 +39,7 @@
 					</tr> \
 				</table>";
 			
-		}
+		}*/
 	}
 ?>
 
