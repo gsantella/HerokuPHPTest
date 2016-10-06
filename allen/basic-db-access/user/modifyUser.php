@@ -25,21 +25,13 @@
 	}
 	else
 	{
-		/*if(isset($_REQUEST['modId']))
+		if(isset($_REQUEST['modId']))
 		{
 			$id = $_REQUEST['modId'];
 			
-			$html = "
-				<table> \
-					<th class='text-left'>Id</th> \
-					<th class='text-left'>First Name</th> \
-					<tr> \
-						<td class='text-left'><?= $row['id']; ?></td> \
-						<td class='text-left'><?= $row['first_name']; ?></td> \
-					</tr> \
-				</table>";
+			$html = "<table> <th class='text-left'>Id</th> <th class='text-left'>First Name</th> <tr> <td class='text-left'><?= $row['id']; ?></td> <td class='text-left'><?= $row['first_name']; ?></td> </tr> </table>";
 			
-		}*/
+		}
 	}
 ?>
 
