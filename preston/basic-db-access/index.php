@@ -11,11 +11,6 @@
 </head>
 
 <body>
-	<?= $result[0]["first_name"]; ?>
-	
-	
-</body>
-
 	<div class="table-title">
 	<h3>Data Table</h3>
 	</div>
@@ -37,7 +32,7 @@
 		</tr>
 	<?php endforeach; ?>
 	</table>
-
-
+	
+</body>
 
 </html>
