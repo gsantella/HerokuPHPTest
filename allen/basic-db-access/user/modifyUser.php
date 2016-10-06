@@ -40,12 +40,6 @@
 				</table>
 			";
 			
-			$stmt= $database->prepare("UPDATE students SET first_name=:name WHERE id=:id ");
-			$stmt->bindValue(':name', $firstName, PDO::PARAM_STR);
-			$stmt->bindValue(':id', $id, PDO::PARAM_INT);
-			$stmt->execute();
-			
-			Header("Location: ../");
 		}
 	}
 ?>
