@@ -12,7 +12,7 @@ $database = new PDO($dsn);
 $data = array($_REQUEST['name'], $_REQUEST['id']);
 
 $sql = "UPDATE students SET first_name = ? WHERE id = ?";
-$pdo->prepare($sql)->execute($data);
+$database->prepare($sql)->execute($data);
 
 //Close connection
 //IGNORE FOR NOW
