@@ -27,10 +27,11 @@
 	{
 		if(isset($_REQUEST['modId']))
 		{
-			$id = $_REQUEST['modId'];
-			
-			$html = "<table> <th class='text-left'>Id</th> <th class='text-left'>First Name</th> <tr> <td class='text-left'><?= $row['id']; ?></td> <td class='text-left'><?= $row['first_name']; ?></td> </tr> </table>";
-			
+			if(isset($_REQUEST['modNameGet']))
+			{
+				$id = $_REQUEST['modId'];
+				$firstName = $_REQUEST['modNameGet'];
+			}
 		}
 	}
 ?>
@@ -42,6 +43,26 @@
 </head>
 
 <body>
-	<?= $html ?>
+	<table> 
+		<th class='text-left'>Id</th> 
+		<th class='text-left'>First Name</th> 
+		
+		<tr> 
+			<td class='text-left'><?= $row['id']; ?></td> 
+			<td class='text-left'><?= $row['first_name']; ?></td> 
+		</tr>
+	</table>
+	
+	<p>
+		What would you like to modify this name to?
+		
+		<form method="get">
+			<input type="text" name="modNameGet" />
+			<input type="hidden" name="modId" value="<?= $row['id']; ?>" />
+			<input type="hidden" name="change" value="1" />
+			<input type="submit" value="Change Name" />
+		</form>
+	</p>
+	
 </body>
 </html>
