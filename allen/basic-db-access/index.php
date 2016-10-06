@@ -30,7 +30,7 @@
 						<td class="text-left">
 							<a href='user/deleteUser.php?delId=<?= $row["id"]; ?>'>Delete</a>
 							<br/><br/>
-							<a href='user/modifyUser.php?modId=<?= $row["id"]; ?>&change=1'>Modify</a>
+							<a href='user/modifyUser.php?modId=<?= $row["id"]; ?>&change=1&oldName=<?= $row["first_name"]; ?>'>Modify</a>
 						</td>
 					</tr>
 				<?php endforeach; ?>

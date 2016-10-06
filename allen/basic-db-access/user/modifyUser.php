@@ -31,6 +31,8 @@
 			{
 				$id = $_REQUEST['modId'];
 				$firstName = $_REQUEST['modNameGet'];
+				
+				Header("Location: ../");
 			}
 		}
 	}
@@ -48,8 +50,8 @@
 		<th class='text-left'>First Name</th> 
 		
 		<tr> 
-			<td class='text-left'><?= $row['id']; ?></td> 
-			<td class='text-left'><?= $row['first_name']; ?></td> 
+			<td class='text-left'><?= $_REQUEST['modId']; ?></td> 
+			<td class='text-left'><?= $_REQUEST['oldName']; ?></td> 
 		</tr>
 	</table>
 	
