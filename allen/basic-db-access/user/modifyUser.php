@@ -13,7 +13,8 @@
 			$stmt->bindValue(':id', $id, PDO::PARAM_INT);
 			$stmt->execute();
 		
-			Header("Location: ../");
+			modify($id, $firstName);
+			//Header("Location: ../");
 		}
 	}
 	else

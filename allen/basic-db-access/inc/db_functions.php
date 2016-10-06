@@ -22,7 +22,7 @@
 	}
 	
 	function modify($id, $name) {
-		
+		echo $id . " " . $name;
 	}
 	
 	//Close connection
