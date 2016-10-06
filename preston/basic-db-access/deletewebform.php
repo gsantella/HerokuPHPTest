@@ -13,4 +13,6 @@ $data = array($_REQUEST["id"]);
 $stmt = $database->prepare("DELETE FROM students WHERE id=?");
 $stmt->execute($data);
 
+header('Location: http://desolate-lake-64893.herokuapp.com/preston/basic-db-access/index.php');
+
 ?>
