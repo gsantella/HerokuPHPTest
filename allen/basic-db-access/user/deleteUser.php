@@ -5,9 +5,11 @@
 	{
 		$id = $_POST['delId'];
 		
-		deleteFrom($id);
+		$stmt= $database->prepare("DELETE FROM 'students' WHERE 'id' = :id;");
+		$stmt->bindValue(':id', $id);
+		$stmt->execute();
 		
-		Header("Location: ../");
+		//Header("Location: ../");
 	}
 	else
 	{
