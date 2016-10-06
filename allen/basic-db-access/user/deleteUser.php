@@ -9,6 +9,8 @@
 		$stmt->bindValue(':id', $id);
 		$stmt->execute();
 		
+		echo $stmt->rowCount() . " Rows Affected.";
+		
 		//Header("Location: ../");
 	}
 	else
