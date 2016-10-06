@@ -50,7 +50,7 @@
 </head>
 
 <body>
-	<table> 
+	<table class="table-fill"> 
 		<th class='text-left'>Id</th> 
 		<th class='text-left'>First Name</th> 
 		
