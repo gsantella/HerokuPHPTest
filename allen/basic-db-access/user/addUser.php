@@ -1,6 +1,11 @@
 <?php
 	include("../inc/db_functions.php");
 	
+
+  if(isset($_REQUEST['add']))
+  {
+
+       
 	if(isset($_POST['firstName']))
 	{
 		$firstName = $_POST['firstName'];
@@ -15,3 +20,22 @@
 	{
 		echo "The First Name was not passed!";
 	}
+
+  }
+?>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Add new user</title>
+  </head>
+
+  <body>
+    <h1>Add Another User</h1>
+    <form method='post' >
+      <input type='text' name='firstName' />
+      <input type='hidden' name='add' value='1' />
+      <input type='submit' value='Add User' />
+    </form>
+  </body>
+</html>
