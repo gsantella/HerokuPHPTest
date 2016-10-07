@@ -34,6 +34,14 @@
 						</td>
 					</tr>
 				<?php endforeach; ?>
+                                
+                                <tr>
+                                        <td></td>
+                                        <td></td>
+                                        <td>
+                                                <a href='user/addUser.php'>Create New </a>
+                                        </td>
+                                </tr>
 			</tbody>
 		</table>
 		
