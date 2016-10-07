@@ -45,6 +45,8 @@
 			</tbody>
 		</table>
 		
+                <!-- No longer need 
+
 		<p id="addPerson">
 			Add:
 			<form action="user/addUser.php" method="post">
@@ -52,8 +54,6 @@
 				<input type="submit" value="Add Person" />
 			</form>
 		</p>
-
-                <!-- No longer need 
 		
 		<p id="deletePerson">
 			Delete by id:
