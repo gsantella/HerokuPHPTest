@@ -28,6 +28,7 @@
 <html>
   <head>
     <title>Add new user</title>
+    <link href="../css/main.css" rel="stylesheet" type="text/css" />
   </head>
 
   <body>
