@@ -155,4 +155,9 @@ body {
 
 a {
   color: #666B85;
+  text-decoration: underline; 
+}
+
+a:hover {
+  text-decoration: none;
 }
