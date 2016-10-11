@@ -7,5 +7,7 @@ include("inc/database.class.php");
 $db = new Database();
 
 // Access the $dbhost variable in the object 
-echo $db->dbhost;
+//echo $db->dbhost;
 
+// Call the getDatabaseUsername function from the database object
+echo $db->getDatabaseUsername();
