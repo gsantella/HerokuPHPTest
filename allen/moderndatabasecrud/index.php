@@ -13,6 +13,6 @@
 	</head>
 	
 	<body>
-		<?= $db->dbHost; ?>
+		<?php echo $db->dbHost; ?>
 	</body>
 </html>
