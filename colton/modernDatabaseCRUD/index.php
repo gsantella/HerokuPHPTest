@@ -15,3 +15,8 @@ $db = new Database();
 // Call the get all data function and print what returns
 
 print_r($db->getAllData());
+
+//$db->create();
+//$db->retrieve();
+//$db->update();
+//$db->delete();

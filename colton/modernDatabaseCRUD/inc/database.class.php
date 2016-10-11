@@ -8,7 +8,7 @@ class Database {
 	
 	public function __construct()
 	{
-			$dsn = $dsn = "pgsql:dbname=$this->dbName;host=$this->dbhost;user=$this->dbUserName;password=$this->dbPassword";
+			$dsn = $dsn = "pgsql:dbname=$this->dbName;host=$this->dbhost;user=$this->dbUsername;password=$this->dbPassword";
 			$this->db = new PDO($dsn)
 	}
 	
