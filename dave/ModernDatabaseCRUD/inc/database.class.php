@@ -7,7 +7,7 @@ class Database{
 	private $dbUserName = "fpkkqmtaywxfwm";
 	private $dbPassword = "dbEE8plG9zaS_QCcVzZeD7maqU";
 	
-	public function getDatabaseUsername
+	public function getDatabaseUsername()
 	{
 		return $this->dbUserName;
 	}
