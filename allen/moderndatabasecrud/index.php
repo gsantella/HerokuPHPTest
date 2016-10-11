@@ -7,6 +7,7 @@
 	echo $db->dbHost;
 	
 ?>
+<!--
 <!DOCTYPE html>
 <html>
 
@@ -18,3 +19,4 @@
 
 	</body>
 </html>
+-->

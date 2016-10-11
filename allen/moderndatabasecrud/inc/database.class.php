@@ -7,9 +7,12 @@
 		public $dbPassword = "dbEE8plG9zaS_QCcVzZeD7maqU";
 		public $dbName = "ddf1ndt04b3tti";
 		
-		public $dsn = "pgsql:dbname=$dbName;host=$dbHost;user=$dbUsername;password=$dbPassword";
+		//public $dsn = "pgsql:dbname=$dbName;host=$dbHost;user=$dbUsername;password=$dbPassword";
 		
-		/*
+		function getDatabaseUsername() {
+			return $dbUsername;
+		}
+		
 		function addRecord($firstName, $lastName) {
 			
 		}
@@ -21,5 +24,5 @@
 		function save() {
 			
 		}
-		*/
+		
 	}
