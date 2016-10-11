@@ -10,7 +10,7 @@
 		//public $dsn = "pgsql:dbname=$dbName;host=$dbHost;user=$dbUsername;password=$dbPassword";
 		
 		public function getDatabaseUsername() {
-			return $this->$dbUsername;
+			return $this->dbUsername;
 		}
 		
 		function addRecord($firstName, $lastName) {
