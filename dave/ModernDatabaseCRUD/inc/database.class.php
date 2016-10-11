@@ -7,6 +7,17 @@ class Database{
 	private $dbUserName = "fpkkqmtaywxfwm";
 	private $dbPassword = "dbEE8plG9zaS_QCcVzZeD7maqU";
 	
+	public function __construct()
+	{
+		$dsn = "pgsql:dbname=$this->dbName;host=$this->dbHost;user=$this->dbUserName;password=$this->dbPassword";
+		$this->db = new PDO($dsn);
+	}
+	
+	public function getAllData()
+	{
+		return $this->db->query("SELECT * FROM students;")->fetchAll(PDO::FETCH_ASSOC);
+	}
+	
 	public function getDatabaseUsername()
 	{
 		return $this->dbUserName;
