@@ -10,4 +10,6 @@ class Database {
 	{
 		return $this->dbUsername;
 	}
+	
+	
 }
