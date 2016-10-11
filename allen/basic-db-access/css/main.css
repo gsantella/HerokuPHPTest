@@ -161,3 +161,7 @@ a {
 a:hover {
   text-decoration: none;
 }
+
+tr:hover td a {
+	color:#FFFFFF
+}
