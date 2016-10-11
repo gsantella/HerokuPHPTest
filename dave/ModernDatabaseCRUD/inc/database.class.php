@@ -6,5 +6,10 @@ class Database{
 	private $dbName = "ddf1ndt04b3tti";
 	private $dbUserName = "fpkkqmtaywxfwm";
 	private $dbPassword = "dbEE8plG9zaS_QCcVzZeD7maqU";
-		
+	
+	public function getDatabaseUsername
+	{
+		return $db->dbUserName;
+	}
+	
 }
