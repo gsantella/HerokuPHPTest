@@ -10,6 +10,6 @@ $db = new Database();
 //echo $db->dbUserName;
 
 //CALL getDatabaseUsername FUNCTION FROM THE DATABASE OBJECT
-var name = $db->getDatabaseUsername();
-echo name;
+echo $db->getDatabaseUsername();
+
 
