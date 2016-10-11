@@ -10,4 +10,8 @@ $db = new Database();
 //echo $db->dbhost;
 
 // Call the getDatabaseUsername function from the database object
-echo $db->getDatabaseUsername();
+//echo $db->getDatabaseUsername();
+
+// Call the get all data function and print what returns
+
+print_r($db->getAllData());
