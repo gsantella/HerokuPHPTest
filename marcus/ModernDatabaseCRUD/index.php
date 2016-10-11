@@ -7,4 +7,4 @@ include("inc/database.class.php");
 $db = new database();
 
 // Access the $dbHost variable in the Database object
-echo $db->dbhost;
+echo $db->dbHost;
