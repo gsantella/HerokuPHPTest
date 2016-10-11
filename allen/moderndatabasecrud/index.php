@@ -4,6 +4,8 @@
 	
 	//make a Database object called db
 	$db = new Database();
+	echo $db->dbHost;
+	
 ?>
 <!DOCTYPE html>
 <html>
@@ -13,6 +15,6 @@
 	</head>
 	
 	<body>
-		<?php echo $db->dbHost; ?>
+
 	</body>
 </html>
