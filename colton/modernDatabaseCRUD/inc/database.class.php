@@ -8,6 +8,6 @@ class Database {
 	
 	public function getDatabaseUsername()
 	{
-		return	$this->$dbUsername;
+		return	$this->dbUsername;
 	}
 }
