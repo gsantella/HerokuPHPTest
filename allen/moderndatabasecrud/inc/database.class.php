@@ -16,6 +16,10 @@
 			return $this->dbUsername;
 		}
 		
+		public function getAllData() {
+			return $this->db->query("SELECT * FROM students;")->fetchAll(PDO::FETCH_ASSOC);
+		}
+		
 		public function addRecord($firstName, $lastName) {
 			
 		}
