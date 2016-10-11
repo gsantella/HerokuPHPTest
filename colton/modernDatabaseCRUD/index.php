@@ -8,3 +8,4 @@ $db = new Database();
 
 // Access the $dbhost variable in the object 
 echo $db->dbhost;
+
