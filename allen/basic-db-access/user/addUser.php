@@ -34,22 +34,10 @@
   <body>
     <h1>Add Another User</h1>
 	
-	<table class="table-fill">
-		<tr>
-			<form method='post' >
-			
-				<td class="text-left">
-					<input type='text' name='firstName' />
-				</td>
-				
-				<input type='hidden' name='add' value='1' />
-				
-				<td class="text-left">
-					<input type='submit' value='Add User' />
-				</td>
-				
-			</form>
-		</tr>
-	</table>
+	<form method='post' >
+		<input type='text' name='firstName' />
+		<input type='hidden' name='add' value='1' />
+		<input type='submit' value='Add User' />
+	</form>
   </body>
 </html>

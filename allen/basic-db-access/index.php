@@ -7,7 +7,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Basic Databse Access</title>
+		<title>Basic Database Access</title>
 		<link href="css/main.css" rel="stylesheet" type="text/css" />
 	</head>
 	
