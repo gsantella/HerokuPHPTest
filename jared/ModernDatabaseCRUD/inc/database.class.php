@@ -6,7 +6,7 @@ class Database {
 	private $dbUsername = "fpkkqmtaywxfwm";
 	private $dbPassword = "dbEE8plG9zaS_QCcVzZeD7maqU";
 	
-	public function_construct()
+	public function __construct()
 	{
 		$dsn = "pgsql:dbname=$this->dbName;host=$this->dbHost;user=$this->dbUsername;password=$this->dbPassword";
 		$this->db = new PDO($dsn);
