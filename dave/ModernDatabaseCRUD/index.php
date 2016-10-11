@@ -10,5 +10,5 @@ $db = new Database();
 //echo $db->dbUserName;
 
 //CALL getDatabaseUsername FUNCTION FROM THE DATABASE OBJECT
-echo $db->getDatabaseUsername;
+echo $db->getDatabaseUsername();
 
