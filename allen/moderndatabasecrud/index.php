@@ -9,10 +9,9 @@
 	//echo $db->dbHost;
 	
 	//Call the getDatabaseUsername function to get $dbhost value
-	echo $dbConn->getDatabaseUsername();
+	//echo $dbConn->getDatabaseUsername();
 	
 	$result = $dbConn->getAllData();
-	
 	print_r($result);
 	
 ?>
