@@ -11,3 +11,6 @@ $db = new database();
 
 //call the getDatabaseUsername function from the database object
 echo $db->getDatabaseUsername();
+
+//call the get all data function
+print_r($db->getAllData());
