@@ -1,7 +1,5 @@
 <?php
 
-//$db = new Database();
-
 class Database {
 	private $dbHost = "ec2-23-21-234-201.compute-1.amazonaws.com";
 	private $dbName = "ddf1ndt04b3tti";
@@ -10,7 +8,7 @@ class Database {
 	
 	public function __construct()
 	{
-		$dsn = "pgsql:dbName=$this->dbName;host=$this->dbHost;user=$this->dbUsername;password=$this->dbPassword";
+		$dsn = "pgsql:dbname=$this->dbName;host=$this->dbHost;user=$this->dbUsername;password=$this->dbPassword";
 		$this->db = new PDO($dsn);
 	}
 	
