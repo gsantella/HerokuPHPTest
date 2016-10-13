@@ -34,6 +34,6 @@ class Database {
 		{
 			echo "insert is broken";
 		}
-}
+	}
 	
 }
