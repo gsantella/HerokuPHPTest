@@ -28,7 +28,7 @@ class Database {
 	
 		if ($stmtSuccess)
 		{
-			echo "1 record added successfully"
+			echo "1 record added successfully";
 		}
 		else
 		{
