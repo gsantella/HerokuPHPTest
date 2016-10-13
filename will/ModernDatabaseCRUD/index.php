@@ -10,9 +10,9 @@ $db = new Database();
 print_r($db->getAllData());
 
 //Test that the insert function works
-$db->insert("123who456- will");
-$db->insert("789did123- will");
-$db->insert("456it789- will");
+$db->insert(array("123who456- will"));
+$db->insert(array("789did123- will"));
+$db->insert(array("456it789- will"));
 
 //$db->update();
 //$db->create();
