@@ -5,14 +5,11 @@
 	//make a Database object called db
 	$dbConn = new Database();
 	
-	//Access the $dbHost variable
-	//echo $db->dbHost;
+	print_r($dbConn->getAllData(););
 	
-	//Call the getDatabaseUsername function to get $dbhost value
-	//echo $dbConn->getDatabaseUsername();
-	
-	$result = $dbConn->getAllData();
-	print_r($result);
+	$dbConn->create("15724 - Allen");
+	$dbConn->create("15701 - Allen");
+	$dbConn->create("15714 - Allen");
 	
 ?>
 

@@ -20,16 +20,22 @@
 			return $this->db->query("SELECT * FROM students;")->fetchAll(PDO::FETCH_ASSOC);
 		}
 		
-		public function addRecord($firstName, $lastName) {
+		public function create($data) {
+			/*
+			$stmt= $this->db->prepare("INSERT INTO students (first_name) VALUES (:firstValue);");
+			$stmt->bindParam(':firstValue', $data);
+			$stmt->execute();
+			*/
+			
+			$stmt = $this->db->prepare("INSERT INTO students(first_name) VALUES(?)");
+			$stmtSuccess = $stmt->execute($data);
+			
+			if ($stmtSuccess) {
+				echo "1 Record Added Successfully!<br/>" . print_r($data);
+			}
+			else {
+				echo "Create is broken!!!!!<br/>" . print_r($data);
+			}
 			
 		}
-		
-		public function deleteRecord($id) {
-			
-		}
-		
-		public function save() {
-			
-		}
-		
 	}
