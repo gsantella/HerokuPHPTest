@@ -14,11 +14,28 @@ class Database {
 	
 	public function getAllData()
 	{
-		retun $this->db->query("SELECT * FROM students;")->fetchAll(PDO::FETCH_ASSOC);
+		return $this->db->query("SELECT * FROM students;")->fetchAll(PDO::FETCH_ASSOC);
 	}
 	
 	public function getDatabaseUsername()
 	{
 		return $this->dbUsername;
 	}
+	
+	public function insert($data)
+	{
+		$stmt = $this->db->prepare("INSERT INTO students(first_name) VALUE(?)");
+		$stmtSuccess = $stmt->execute($data);
+		
+		if($stmtSuccess)
+		{
+			echo "1 Record Added Successfully";
+		}
+		else
+		{
+			echo "Insert is broken!!!!!!!";
+		}
+	}
+	
+	
 }
