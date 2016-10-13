@@ -21,12 +21,6 @@
 		}
 		
 		public function create($data) {
-			/*
-			$stmt= $this->db->prepare("INSERT INTO students (first_name) VALUES (:firstValue);");
-			$stmt->bindParam(':firstValue', $data);
-			$stmt->execute();
-			*/
-			
 			$stmt = $this->db->prepare("INSERT INTO students(first_name) VALUES(?);");
 			$stmtSuccess = $stmt->execute($data);
 			
