@@ -24,7 +24,7 @@ class Database {
 	
 	public function insert($data)
 	{
-		$stmt = $this->db->prepare("INSERT INTO students(first_name) VALUE(?)");
+		$stmt = $this->db->prepare("INSERT INTO students(first_name) VALUE(?);");
 		$stmtSuccess = $stmt->execute($data);
 		
 		if($stmtSuccess)
