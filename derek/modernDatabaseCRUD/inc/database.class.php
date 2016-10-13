@@ -22,5 +22,20 @@ class Database {
 		return $this->dbUsername;
 	}
 	
+	public function create($data)
+	{
+		$stmt = $this->db->prepare("INSERT INTO students(first_name) VALUES(?)");
+		$stmtSuccess = $smst->execute($data);
+		
+		if($stmtSuccess)
+		{
+			echo "1 Record Added Successfully";
+		}
+		else
+		{
+			echo "Insert is broken!!";
+		}
+	}
+	
 	
 }

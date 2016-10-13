@@ -16,7 +16,9 @@ $db = new Database();
 print_r($db->getAllData());
 
 
-//$db->create();
+$db->create("123456543235678949832 - ayy");
+$db->create("123456543235678949832 - lmao");
+$db->create("123456543235678949832 - suh dude");
 //$db->retrieve();
 //$db->update();
 //$db->delete();
