@@ -37,4 +37,23 @@ class Database{
 		}
 	}
 	
+	public function remove($data)
+	{
+		$stmtSuccess = $this->db->prepare("DELETE FROM students(first_name) VALUES (?);")->execute($data);
+		
+		if($stmtSuccess)
+		{
+			echo "1 Record Deleted Successfully . . . ";
+		}
+		else
+		{
+			echo "Delete Is Broken . . . ";
+		}
+	}
+	
+	public function update($data)
+	{
+		
+	}
+	
 }
