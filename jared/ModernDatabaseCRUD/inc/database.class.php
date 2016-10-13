@@ -22,6 +22,18 @@ class Database {
 		return $this->dbUsername;
 	}
 	
+	public function insert($data)
+	{
+		$stmtSuccess = $this->db->prepare("INSERT INTO students(first_name) values(?)")->execute($data);
 	
+		if ($stmtSuccess)
+		{
+			echo "1 record added successfully"
+		}
+		else
+		{
+			echo "insert is broken";
+		}
+}
 	
 }
