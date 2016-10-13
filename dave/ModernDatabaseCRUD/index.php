@@ -5,12 +5,10 @@ include("inc/database.class.php");
 //MAKE A DATABASE OBJECT CALLED $db
 $db = new Database();
 
-//ACCESS THE $dbHost VARIABLE IN THE OBJECT
-
-//echo $db->dbUserName;
-
-//CALL getDatabaseUsername FUNCTION FROM THE DATABASE OBJECT
-//echo $db->getDatabaseUsername();
+//TEST THAT THE INSERT FUNCTION WORKS
+$db->insert("1616161616 - Dave");
+$db->insert("1616161616 - Dave");
+$db->insert("1616161616 - Dave");
 
 //CALL the getAllData function from the database object
 print_r($db->getAllData());
