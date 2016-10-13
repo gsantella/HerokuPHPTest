@@ -14,7 +14,7 @@ class Database {
 	
 	public function getAllData()
 	{
-		retun $this->db->query("SELECT * FROM students;")->fetctAll(PDO::FETCH_ASSOC);
+		retun $this->db->query("SELECT * FROM students;")->fetchAll(PDO::FETCH_ASSOC);
 	}
 	
 	public function getDatabaseUsername()
