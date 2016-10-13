@@ -4,7 +4,7 @@
 include("inc/database.class.php");
 
 //make a databas object called $db
-$db = new database();
+$db = new Database();
 
 //access the dbHost var in the database object
 //echo $db->dbHost;
