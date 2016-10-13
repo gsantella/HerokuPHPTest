@@ -10,6 +10,6 @@ $db = new Database();
 print_r($db->getAllData());
 
 // Test that the insert function worked 
-$db->insert("123456 - Preston");
-$db->insert("696969 - Diddy");
-$db->insert("232323 - Mitchell");
+$db->insert(array("123456 - Preston"));
+$db->insert(array("696969 - Diddy"));
+$db->insert(array("232323 - Mitchell"));
