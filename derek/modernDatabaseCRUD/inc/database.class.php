@@ -27,7 +27,7 @@ class Database {
 		$stmt = $this->db->prepare("INSERT INTO students(first_name) VALUES(?);");
 		$stmtSuccess = $stmt->execute($data);
 		
-		if($stmtSuccess)
+		if ($stmtSuccess)
 		{
 			echo "1 Record Added Successfully";
 		}
