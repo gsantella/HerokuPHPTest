@@ -16,6 +16,6 @@ $db = new Database();
 print_r($db->getAllData());
 
 //test that the insert function works
-$db->insert("8128 - Jared");
-$db->insert("8178 - Jared");
-$db->insert("8188 - Jared");
+$db->insert("8128-Jared");
+$db->insert("8178-Jared");
+$db->insert("8188-Jared");
