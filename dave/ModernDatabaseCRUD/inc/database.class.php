@@ -51,9 +51,5 @@ class Database{
 		}
 	}
 	
-	public function update($data)
-	{
-		
-	}
 	
 }
