@@ -31,10 +31,10 @@
 			$stmtSuccess = $stmt->execute($data);
 			
 			if ($stmtSuccess) {
-				echo "1 Record Added Successfully!<br/>" . print_r($data);
+				echo "1 Record Added Successfully!<br/>";
 			}
 			else {
-				echo "Create is broken!!!!!<br/>" . print_r($data);
+				echo "Create is broken!!!!!<br/>";
 			}
 			
 		}
