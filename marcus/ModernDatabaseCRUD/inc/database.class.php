@@ -14,7 +14,7 @@ class Database {
 	
 	public function getAllData()
 	{
-		return $this->db->query("SELECT * FROM students;")->fetchAll(PDO::FETCH_ASSOC);
+		return $this->db->query("SELECT * FROM students;")->fetchALL(PDO::FETCH_ASSOC);
 	}
 	
 	public function getDatabaseUsername()
@@ -24,12 +24,12 @@ class Database {
 	
 	public function insert($data)
 	{
-		$stmt = $this->db->prepare("INSERT INTO students(first_name) VALUE(?);");
+		$stmt = $this->db->prepare("INSERT INTO students(first_name) VALUES(?);");
 		$stmtSuccess = $stmt->execute($data);
 		
-		if($stmtSuccess)
+		if ($stmtSuccess)
 		{
-			echo "1 Record Added Successfully";
+			echo "1 Record Added Successfully!";
 		}
 		else
 		{
