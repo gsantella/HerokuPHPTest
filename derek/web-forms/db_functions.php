@@ -9,7 +9,7 @@ $database = new PDO($dsn);
 echo $_REQUEST;
 $name = $_REQUEST["name"];
 //Run a SELECT SQL Statement
-$stmt = $db->prepare("INSERT into students(first_name) VALUES (?)");
+$stmt = $db->prepare("INSERT into students(first_name) VALUES (?);");
 $stmt->execute(array($name));
 
 
