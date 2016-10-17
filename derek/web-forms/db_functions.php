@@ -9,10 +9,9 @@ $database = new PDO($dsn);
 
 $name = $_REQUEST["name"];
 //Run a SELECT SQL Statement
-$stmt = $db->prepare("INSERT into students(first_name) VALUES (?);");
-echo $_REQUEST["name"];
+$stmt = $database->prepare("INSERT into students(first_name) VALUES (?);");
 $stmt->execute(array($name));
-
+echo $_REQUEST["name"];
 
 //close connection
 //ignore for now
