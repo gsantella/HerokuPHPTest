@@ -9,7 +9,7 @@ $dsn = "pgsql:dbname=$db;host=$host;user=$user;password=$pass";
 $database = new PDO($dsn);
 $name = $_REQUEST["name"];
 //Run a SELECT SQL Statement
-$stmt = $db->prepare("INSERT into students('first_name') VALUES (?)");
+$stmt = $db->prepare("INSERT into students(first_name) VALUES (?)");
 $stmt->execute(array($name));
 echo $name;
 
