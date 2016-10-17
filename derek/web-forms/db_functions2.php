@@ -11,7 +11,7 @@ $database = new PDO($dsn);
 
 //Run a INSERT SQL Statement
 $ID = $_REQUEST["ID"];
-$stmt = $database->prepare("DELETE FROM students WHERE ID = ?;");
+$stmt = $database->prepare("DELETE FROM students WHERE ID=?;");
 $stmt->execute(array($ID));
 echo $_REQUEST["ID"];
 
