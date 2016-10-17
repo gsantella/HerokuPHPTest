@@ -7,7 +7,7 @@ $pass = "dbEE8plG9zaS_QCcVzZeD7maqU";
 $_REQUEST["name"];
 $dsn = "pgsql:dbname=$db;host=$host;user=$user;password=$pass";
 $database = new PDO($dsn);
-$name = $_REQUEST;
+$name = $_REQUEST["name"];
 //Run a SELECT SQL Statement
 $stmt = $db->prepare("INSERT into students('first_name') VALUES (?)");
 $stmt->execute(array($name));
