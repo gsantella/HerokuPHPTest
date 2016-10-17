@@ -11,6 +11,7 @@ $name = $_REQUEST;
 //Run a SELECT SQL Statement
 $stmt = $db->prepare("INSERT into students('first_name') VALUES (?)");
 $stmt->execute(array($name));
+echo $name;
 
 //close connection
 //ignore for now
