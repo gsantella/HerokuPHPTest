@@ -1,0 +1,10 @@
+<?php
+$data = array( $_REQUEST["id"],
+			   $_REQUEST["first_name"]
+			 );
+			 
+$database = fopen("students.csv");
+
+fputcsv($database)
+
+fclose($database)
