@@ -8,7 +8,7 @@
 </head>
 
 <body>
-	<button id="btnLoadDataWithAJAX" onclick="myFunction()">Click Me For Data</button>
+	<button id="btnLoadDataWithAJAX">Click Me For Data</button>
 	
 	<div id="data">
 		Data Will Be Updated Here Without A Page Reload! - YAY!
@@ -16,7 +16,7 @@
 	
 	<input type="text" id="txtFirstName"></input>
 	
-	<button id="btnInsertDataWithAJAX" onclick="myFunction()">Add This Data</button>
+	<button id="btnInsertDataWithAJAX">Add This Data</button>
 	
 	<div id="insertStatus">
 		Result Of Insert Will Show Up Here! - YAY!
