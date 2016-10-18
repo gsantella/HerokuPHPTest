@@ -1,6 +1,6 @@
 <?php
 //INCLUDES THE DATABASE CLASS
-include("inc/database.class.php");
+include("database.class.php");
 
 //MAKE A DATABASE OBJECT CALLED $db
 $db = new Database();
