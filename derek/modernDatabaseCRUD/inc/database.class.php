@@ -22,10 +22,10 @@ class Database {
 		return $this->dbUsername;
 	}
 	
-	public function create($data)
+	public function insert($data)
 	{
 		$stmt = $this->db->prepare("INSERT INTO students(first_name) VALUES(?);");
-		$stmtSuccess = $stmt->execute($data);
+		$stmtSuccess = $stmt->execute(array($data));
 		
 		if ($stmtSuccess)
 		{
