@@ -7,5 +7,9 @@ $(document).ready(function() {
 				$("#data").html(data.title);
 		});
 	});
+	
+	$("#btnInsertDataWithAJAX").click(function() {
+		alert($("#txtFirstName").val() );
+	});
 		
 });
