@@ -8,10 +8,9 @@
 </head>
 
 <body>
-	<div class="progress">
-		<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-			<span class="sr-only">60% Complete</span>
-		</div>
+	<button id="btnLoadDataWithAJAX" />
+	<div id="data">
+		Data Will Be Updated Here Without A Page Reload! - YAY!
 	</div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
