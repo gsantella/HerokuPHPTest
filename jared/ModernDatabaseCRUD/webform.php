@@ -17,7 +17,7 @@
 		<input type="text" id="txtFirstName" />
 		<button id="btnInsertDataWithAJAX">Add This data!</button>
 		<div id="insertStatus" >
-		
+			Result of isert will show up here!
 		</div>
 		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
