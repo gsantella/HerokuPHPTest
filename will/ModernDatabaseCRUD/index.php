@@ -10,12 +10,9 @@ $db = new Database();
 print_r($db->getAllData());
 
 //Test that the insert function works
-$db->insert("123who456- will");
-$db->insert("789did123- will");
-$db->insert("456it789- will");
 $db->insert("allen");
 $db->insert("is");
-$db->insert("lonely");
+$db->insert("lonely"));
 $db->insert("and");
 $db->insert("need");
 $db->insert("a");
