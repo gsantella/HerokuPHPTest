@@ -10,7 +10,7 @@ $database = new PDO($dsn);
 
 $data = array($_REQUEST["first_name"]);
 
-$stmt = $database->prepare("INSERT INTO students(first_name) VALUE(?)");
+$stmt = $this->db->prepare("INSERT INTO students(first_name) VALUE(?)");
 $stmt->execute($data);
 
 
