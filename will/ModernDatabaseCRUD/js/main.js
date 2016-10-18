@@ -9,13 +9,14 @@ $(document).ready(function() {
 	});
 	
 	$("#btnInsertDataWithAJAX").click(function() {
-		alert( $("txtFirstName").val() );
+		alert( $("#txtFirstName").val() );
+		
 		$.ajax({
 			type: "POST",
-			url: "../inc/insertData.php",
-			data: "firstName="+ $("txtFirstName").val(),
+			url: "inc/insertData.php",
+			data: "firstName=" + $("#txtFirstName").val(),
 			success: function() {
-				$("#insertStatus").html("Successfuk on inserting one record");
+				$("#insertStatus").html("Successful on inserting one record!");
 			}
 		})
 	});
