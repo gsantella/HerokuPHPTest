@@ -8,4 +8,15 @@ $(document).ready(function() {
 				$('#data').html(data.title);
 		});
 	});
+	
+	$('#btnInsertDataWithAJAX').click(function() {
+		$.ajax({
+			type: "POST",
+			url: "inc/insertData.php",
+			data: "firstName="+$('#txtFirstName').val(),
+			success: function() {
+				$("#insertStatus").html("Successful on inserting one record!");
+			}
+		});
+	});
 });
