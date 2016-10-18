@@ -8,4 +8,8 @@ $(document).ready(function() {
 				$('#data').html(data.title);
 		});
 	});
+	
+	$('#btnInsertDataWithAJAX').click(function() {
+		
+	});
 });

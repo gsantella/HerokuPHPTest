@@ -25,6 +25,17 @@
 		</p>
 	</div>
 	
+	<br/><br/>
+	
+	<input type="text" id="txtFirstName" /><br/>
+	<button id="btnInsertDataWithAJAX">Add this data!</button>
+	
+	<br/><br/>
+	
+	<div id="insertStatus">
+		Result of Insert will show up here!
+	</div>
+	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script src="js/main.js"></script>
