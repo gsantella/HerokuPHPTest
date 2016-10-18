@@ -10,9 +10,9 @@ $db = new Database();
 print_r($db->getAllData());
 
 // Test that the insert function works!
-$db->insert("Mary");
-$db->insert("Sue");
-$db->insert("Liz");
+$db->insert("A");
+$db->insert("B");
+$db->insert("C");
 
 //$db->create();
 //$db->retrieve();
