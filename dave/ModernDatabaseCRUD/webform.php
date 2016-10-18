@@ -8,7 +8,7 @@
 </head>
 
 <body>
-	<button id="btnLoadDataWithAJAX" />
+	<button id="btnLoadDataWithAJAX">Click Me For Data</button>
 	<div id="data">
 		Data Will Be Updated Here Without A Page Reload! - YAY!
 	</div>
