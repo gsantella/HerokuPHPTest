@@ -10,6 +10,6 @@ $(document).ready(function() {
 	});
 	
 	$('#btnInsertDataWithAJAX').click(function() {
-		
+		alert( $('#txtFirstName').text );
 	});
 });
