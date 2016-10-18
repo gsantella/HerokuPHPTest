@@ -17,7 +17,7 @@
 		}
 		
 		public function getAllData() {
-			return $this->db->query("SELECT * FROM students;")->fetchAll(PDO::FETCH_ASSOC);
+			return $this->db->query("SELECT * FROM students ORDER BY students.id;")->fetchAll(PDO::FETCH_ASSOC);
 		}
 		
 		public function create($data) {
@@ -25,7 +25,7 @@
 			$stmtSuccess = $stmt->execute(array($data));
 			
 			if ($stmtSuccess) {
-				echo "1 Record Added Successfully!<br/>";
+				echo "<br/>1 Record Added Successfully!";
 			}
 			else {
 				echo "Create is broken!!!!!<br/>";

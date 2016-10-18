@@ -7,6 +7,8 @@
 	
 	print_r($dbConn->getAllData());
 	
+	echo "<br/>";
+	
 	$dbConn->create("15724 - Allen");
 	$dbConn->create("15701 - Allen");
 	$dbConn->create("15714 - Allen");
