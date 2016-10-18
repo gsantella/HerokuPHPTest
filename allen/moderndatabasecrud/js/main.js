@@ -14,7 +14,7 @@ $(document).ready(function() {
 		
 		$.ajax({
 			type: "POST",
-			url: "inc/insertData.php",
+			url: "../inc/insertData.php",
 			data: "firstName="+$('#txtFirstName').val(),
 			success: function() {
 				$("#insertStatus").html("Successful on inserting one record!");
