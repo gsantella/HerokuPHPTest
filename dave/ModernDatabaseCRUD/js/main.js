@@ -12,7 +12,7 @@ $(document).ready(function()
 				$("#data").html(json);
 			}
 			
-		})
+		});
 	});
 	
 });
