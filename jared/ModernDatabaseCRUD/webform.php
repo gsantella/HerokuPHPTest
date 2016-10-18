@@ -9,9 +9,15 @@
 
 	<body>
 		
-		<button id="btnLoadDataWithAJAX">Click me for data</button>
+		<button id="btnLoadDataWithAJAX">Click me for data!</button>
 		<div id="data">
 			Data will be updated without a page reload!
+		</div>
+		
+		<input type="text" id="txtFirstName" />
+		<button id="btnInsertDataWithAJAX">Add This data!</button>
+		<div id="insertStatus" >
+		
 		</div>
 		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
