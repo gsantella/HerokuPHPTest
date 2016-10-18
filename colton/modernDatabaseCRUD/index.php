@@ -1,20 +1,18 @@
 <?php
 
-// Include the database class
+// Include the Database class
 include("inc/database.class.php");
 
-//make a database object called db
+// Make a Database object called $db
 $db = new Database();
 
-// Access the $dbhost variable in the object 
-//echo $db->dbhost;
-
-// Call the getDatabaseUsername function from the database object
-//echo $db->getDatabaseUsername();
-
-// Call the get all data function and print what returns
-
+// Call the getAllData function and print what returns
 print_r($db->getAllData());
+
+// Test that the insert function works!
+$db->insert("Mary");
+$db->insert("Sue");
+$db->insert("Liz");
 
 //$db->create();
 //$db->retrieve();
