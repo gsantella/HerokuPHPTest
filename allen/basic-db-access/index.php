@@ -1,6 +1,6 @@
 <?php 
 	include("inc/db_functions.php"); 
-	$result = $database->query("SELECT * FROM students;")->fetchAll(PDO::FETCH_ASSOC);
+	$result = $database->query("SELECT * FROM students ORDER BY students.id;")->fetchAll(PDO::FETCH_ASSOC);
 	//Run a SELECT SQL statement to get results
 	
 ?>
