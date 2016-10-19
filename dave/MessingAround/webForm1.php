@@ -3,7 +3,7 @@
 <html>
 	<head>
 		<title>Creating A Web Form + Processing</title>
-		<link rel="stylesheet" href="main.css" />
+		<LINK REL=StyleSheet HREF="main.css" TYPE="text/css" MEDIA=screen>
 	</head>
 	
 	<body>
