@@ -19,8 +19,8 @@ $(document).ready(function() {
 			success: function() {
 				$("#insertStatus").html("successful on inserting one record!")
 			}
-		})
-	
+		});
+
 	});
 	
 	$("#btnDeleteDataWithAJAX").click(function(){
@@ -31,7 +31,8 @@ $(document).ready(function() {
 			data: "id=" + $("#txtId").val(),
 			success: function(result) {
 				$("#deleteStatus").html(result);	
-		})
+			}
+		});
 	});
 	
 });
