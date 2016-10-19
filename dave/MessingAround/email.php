@@ -10,4 +10,8 @@ $headers = "From: The Sender Name <SENDER EMAIL ADDRESS>\r\n";
 $headers .= "Reply-To: REPLY-TO EMAIL ADDRESS\r\n";
 $headers .= "Content-type: text/html\r\n";
 // Send email
-mail($to, $subject, $message, $headers);
+if(mail($email_to, $email_subject, $email_body)){
+        echo "The email($email_subject) was successfully sent.";
+    } else {
+        echo "The email($email_subject) was NOT sent.";
+    }
