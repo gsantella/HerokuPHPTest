@@ -10,12 +10,11 @@ $dsn = "pgsql:dbname=$db;host=$host;user=$user;password=$pass";
 $database = new PDO($dsn);
 
 //Run a SELECT SQL Statement To Get Results
-$result=$database->query("SELECT * FROM students;")->fetchAll(PDO::FETCH_ASSOC);
+//$result=$database->query("SELECT * FROM students;")->fetchAll(PDO::FETCH_ASSOC);
 
 //To Update SQL Statement
-$stmt = $db->prepare("INSERT INTO students(fieldA,fieldB,fieldC) VALUES(:fieldA,:fieldB,:fieldC)");
-$stmt -> execute(array(':fieldA'=>$fieldA, ':fieldB'=>$fieldb, 'fieldC'=>$fieldC));
-$affected_rows = $stmt -> rowCount();
+$stmt = $database->prepare("INSERT INTO students(first_name) VALUES(?);");
+$stmt->execute(array($_REQUEST["name"]));
 
 //Close Connection
 //Ignore For Now . . 
