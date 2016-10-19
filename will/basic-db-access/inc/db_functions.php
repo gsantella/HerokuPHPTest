@@ -12,5 +12,10 @@ $database = new PDO($dsn);
 //Run a SELECT SQL Statement To Get Results
 $result = $database->query("SELECT * FROM students;")->fetchAll(PDO::FETCH_ASSOC);
 
+//To Update SQL Statement
+//$stmt = $db->prepare("UPDATE students SET name=? WHERE id=?")
+//$stmt -> execute(array($name, $id));
+//$affected_rows = $stmt -> rowCount();
+
 //Close Connection
 //Ignore For Now . . 
