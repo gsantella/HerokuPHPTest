@@ -7,4 +7,4 @@ include("database.class.php");
 $db = new Database();
 
 //test that the insert function works
-$db->insert($_REQUEST["firstName"]);
+$db->insert($_REQUEST["id"]);

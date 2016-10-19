@@ -28,7 +28,7 @@ $(document).ready(function() {
 		$.ajax({
 			type: "POST",
 			url: "inc/deleteData.php",
-			data: "firstName=" + $("#txtId").val(),
+			data: "id=" + $("#txtId").val(),
 			success: function(result) {
 				$("#deleteStatus").html(result);	
 		})
