@@ -48,7 +48,7 @@ class Database {
 		}
 		else
 		{
-			echo "Insert is broken!!!!";
+			echo "Delete is broken!!!!";
 		}
 	}
 
