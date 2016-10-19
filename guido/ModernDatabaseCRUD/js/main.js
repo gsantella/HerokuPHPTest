@@ -2,7 +2,6 @@ $(document).ready(function() {
 
 	$("#btnLoadDataWithAJAX").click(function() {
 		$.getJSON("https://dataclips.heroku.com/elbicfdblodrgkgwyompoodpdxae-JustFirstNames.json", function(data) {
-				alert(data.title);
 				$("#data").html(data.title);
 		});
 
@@ -37,8 +36,8 @@ $(document).ready(function() {
 			type: "DELETE",
 			url: "inc/deleteData.php",
 			data: "id=" + $("#txtId").val(),
-			success: function() {
-				$("#deleteStatus").html("Successful on deleting one record!");
+			success: function(result) {
+				$("#deleteStatus").html(result);
 			}
 		})
 

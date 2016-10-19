@@ -8,3 +8,5 @@ $db = new Database();
 
 // Insert the data
 $db->delete($_REQUEST["id"]);
+
+header('HTTP/1.1 404 Deleted');
