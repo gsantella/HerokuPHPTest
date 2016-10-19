@@ -8,7 +8,15 @@
 	<body>
 	<h1>Create An Account</h1>
 	
-	First Name:<input type="text" id="firstName" />
+	<form action="email.php">
+	  First name:<br>
+	  <input type="text" name="firstname" value="Mickey">
+	  <br>
+	  Last name:<br>
+	  <input type="text" name="lastname" value="Mouse">
+	  <br><br>
+	  <input type="submit" value="Submit">
+	</form> First Name:<input type="text" id="firstName" />
 	<br />
 	Last Name:<input type="text" id="lastName" />
 	<br />
