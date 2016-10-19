@@ -20,5 +20,18 @@ $(document).ready(function() {
 			}
 		})
 	});
+	
+	$("btnDeleteDataWithAJAX").click(function() {
+		
+		$.ajax({
+			type: "POST",
+			url: "inc/deleteData.php"
+			data: "firstName=" + $("#txtFirstName").val(),
+			success: function() {
+				$("#insertStatus").html("Successful on deleting one record!")
+				$("#txtFirstName").val().appendTo("#list");
+			}
+		})
+	}
 		
 });
