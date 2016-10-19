@@ -14,7 +14,7 @@
 	<br />
 	<button id="signUp">Create Account</button>
 	
-	<script src="webForm1.js"></script>
+	<script src="webform1.js"></script>
 	</body>
 	
 </html>
