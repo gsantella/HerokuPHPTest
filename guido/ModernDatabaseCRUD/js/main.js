@@ -32,7 +32,7 @@ $(document).ready(function() {
 	});
 
 	$("#btnDeleteDataWithAJAX").click(function() {
-
+		alert("Item to Delete: " + $("#txtId").val());
 		$.ajax({
 			type: "POST",
 			url: "inc/deleteData.php",

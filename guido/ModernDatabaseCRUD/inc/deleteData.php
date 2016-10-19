@@ -6,5 +6,5 @@ include("database.class.php");
 // Make a Database object called $db
 $db = new Database();
 
-// Delete the data
-$db->delete(318);
+// Insert the data
+$db->delete($_REQUEST["id"]);
