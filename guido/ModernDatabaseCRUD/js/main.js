@@ -1,16 +1,27 @@
 $(document).ready(function() {
-	
+
 	$("#btnLoadDataWithAJAX").click(function() {
 		alert("I'm going to get your data now!");
 		$.getJSON("https://dataclips.heroku.com/elbicfdblodrgkgwyompoodpdxae-JustFirstNames.json", function(data) {
 				alert(data.title);
 				$("#data").html(data.title);
 		});
+
+		var items = [];
+		$.each( data, function( key, val ) {
+			items.push( "<li id='" + key + "'>" + val + "</li>" );
+		});
+
+		$( "<ul/>", {
+			"class": "my-new-list",
+			html: items.join( "" )
+		}).appendTo( "#data" );
+
 	});
-	
+
 	$("#btnInsertDataWithAJAX").click(function() {
 		alert( $("#txtFirstName").val() );
-		
+
 		$.ajax({
 			type: "POST",
 			url: "inc/insertData.php",
@@ -19,7 +30,7 @@ $(document).ready(function() {
 				$("#insertStatus").html("Successful on inserting one record!");
 			}
 		})
-		
+
 	});
-	
+
 });
