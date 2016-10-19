@@ -20,7 +20,7 @@
 	Result of insert will show up here!
 </div>
 
-<input type="text" id="text" />
+<input type="text" id="txtId" />
 <button id="btnDeleteDataWithAJAX">Remove this data!</button>
 <div id="deleteStatus">
 	Result of delete will show up here!
