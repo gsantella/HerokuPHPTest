@@ -13,7 +13,9 @@
 	Last Name:<input type="text" id="lastName" />
 	<br />
 	<button id="signUp">Create Account</button>
-	
+	<div id="div">
+		
+	</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 	<script src="webform1.js"></script>
 	</body>
