@@ -40,7 +40,7 @@ class Database {
 	public function delete($id)
 	{
 		$stmt = $this->db->prepare("DELETE FROM students WHERE id=?;");
-		$stmtSuccess = $stmt->execute($id);
+		$stmtSuccess = $stmt->execute(array($id));
 
 		if ($stmtSuccess)
 		{
