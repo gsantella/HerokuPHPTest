@@ -44,7 +44,7 @@ class Database {
 		
 		if ($stmtSuccess)
 		{
-			echo "1 Record dDeleted Successfully!";
+			echo "1 Record Deleted Successfully!";
 		}
 		else
 		{
