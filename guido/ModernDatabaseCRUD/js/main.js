@@ -25,6 +25,7 @@ $(document).ready(function() {
 			data: "firstName=" + $("#txtFirstName").val(),
 			success: function() {
 				$("#insertStatus").html("Successful on inserting one record!");
+				$("#txtFirstName").val().appendTo("#list");
 			}
 		})
 
