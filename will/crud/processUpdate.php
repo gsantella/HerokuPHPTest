@@ -13,7 +13,7 @@ $database = new PDO($dsn);
 //$result = $database->query("SELECT * FROM students;")->fetchAll(PDO::FETCH_ASSOC);
 
 //To Update SQL Statement
-$data=array($_REQUEST["FIRST_NAME"],$_REQUEST["id"]);
+$data=array($_REQUEST["id"]);
 
 $stmt=$database->prepare("UPDATE students SET name=? WHERE id=?");
 $stmt->execute($data);
