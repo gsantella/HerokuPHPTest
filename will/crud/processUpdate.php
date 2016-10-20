@@ -17,7 +17,7 @@ $data=array($_REQUEST["first_name"],$_REQUEST["id"]);
 
 print_r($data);
 
-$stmt=$database->prepare("UPDATE students SET first_name=? WHERE id=?;");
+$stmt=$database->prepare("UPDATE students SET first_name=? WHERE id=?");
 $stmt->execute($data);
 
 //Close Connection
