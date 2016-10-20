@@ -932,12 +932,12 @@
 					 </ul>
 				  </div>
 				  
-				  <div class="btn-group" role="group" aria-label="...">How Would You Rate You Experience Today:
-					<button type="button" class="btn btn-default">Fire Your Web Designer</button>
-					<button type="button" class="btn btn-default">Needs Improvements</button>
-					<button type="button" class="btn btn-default">Another Day Another Page</button>
-					<button type="button" class="btn btn-default">Would Recommend A Friend</button>
-					<button type="button" class="btn btn-default">How Can I Join Your Team</button>
+				  <div class="btn-group" role="group" aria-label="...">How Would You Rate You Experience Today:<br>
+					<li><button type="button" class="btn btn-default">Fire Your Web Designer</button></li>
+					<li><button type="button" class="btn btn-default">Needs Improvements</button></li>
+					<li><button type="button" class="btn btn-default">Another Day Another Page</button></li>
+					<li><button type="button" class="btn btn-default">Would Recommend A Friend</button></li>
+					<li><button type="button" class="btn btn-default">How Can I Join Your Team</button></li>
 				  </div>
 
       			</fieldset>
