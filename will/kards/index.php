@@ -939,6 +939,11 @@
 					<li><button type="button" class="btn btn-default">Would Recommend A Friend</button></li>
 					<li><button type="button" class="btn btn-default">How Can I Join Your Team</button></li>
 				  </div>
+				  
+				  <form action="demo_form.asp">
+					<input type="checkbox">Just click here to approve<br>
+				  </form>
+				  
 
       			</fieldset>
       		</form> <!-- Form End -->
