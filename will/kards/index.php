@@ -893,18 +893,18 @@
             <!-- form -->
             <form name="contactForm" id="contactForm" method="post" action="">
       			<fieldset>
-					<div style="position:relative;width:200px;height:25px;border:0;padding:0;margin:0;">
-					<select style="position:absolute;top:0px;left:0px;width:200px; height:25px;line-height:20px;margin:0;padding:0;" onchange="document.getElementById('displayValue').value=this.options[this.selectedIndex].text; document.getElementById('idValue').value=this.options[this.selectedIndex].value;">
+					<div style="position:relative;width:800px;height:25px;border:0;padding:0;margin:0;">
+					<select style="position:absolute;top:0px;left:0px;width:800px; height:25px;line-height:20px;margin:0;padding:0;" onchange="document.getElementById('displayValue').value=this.options[this.selectedIndex].text; document.getElementById('idValue').value=this.options[this.selectedIndex].value;">
 						<option></option>
-						<option value="one">one</option>
+						<!--<option value="one">one</option>
 						<option value="two">two</option>
-						<option value="three">three</option>
+						<option value="three">three</option> -->
 					</select>
 					<input name="displayValue" placeholder="add/select a value" id="displayValue" style="position:absolute;top:0px;left:0px;width:183px;width:180px\9;#width:180px;height:23px; height:21px\9;#height:18px;border:1px solid #556;" onfocus="this.select()" type="text">
 					<input name="idValue" id="idValue" type="hidden">
 					</div>
 						
-                  <div class="form-field">
+<!--			  <div class="form-field">
  						   <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="">
                   </div>
                   <div class="form-field">
@@ -926,7 +926,7 @@
 								  	<div class="bounce3"></div>
 								</div>
 							</div>
-                  </div>
+                  </div> -->
 
       			</fieldset>
       		</form> <!-- Form End -->
