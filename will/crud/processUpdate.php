@@ -14,6 +14,7 @@ $database = new PDO($dsn);
 
 //To Update SQL Statement
 $data=array($_REQUEST["FIRST_NAME"],$_REQUEST["id"]);
+
 $stmt=$database->prepare("UPDATE students SET name=? WHERE id=?");
 $stmt->execute($data);
 
