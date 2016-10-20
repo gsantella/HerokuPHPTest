@@ -13,7 +13,7 @@ $database = new PDO($dsn);
 //$result = $database->query("SELECT * FROM students;")->fetchAll(PDO::FETCH_ASSOC);
 
 //To Update SQL Statement
-$data=array($_REQUEST["id"],$_REQUEST["first_name"]);
+$data=array($_REQUEST["id"]);
 
 $stmt=$database->prepare("DELETE FROM students WHERE id=?");
 $stmt->execute($data);
