@@ -922,7 +922,7 @@
 					 <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
 						Choose how you would like your Response
 						<span class="caret"></span>
-					 </button>
+					 </button><br />
 					 <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
 						<li><a href="#">Phone</a></li>
 						<li><a href="#">Email</a></li>
