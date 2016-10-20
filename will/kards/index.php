@@ -900,7 +900,7 @@
 						<option value="two">two</option>
 						<option value="three">three</option> -->
 					</select>
-					<input name="displayValue" placeholder="add/select a value" id="displayValue" style="position:absolute;top:0px;left:0px;width:183px;width:180px\9;#width:180px;height:23px; height:21px\9;#height:18px;border:1px solid #556;" onfocus="this.select()" type="text">
+					<input name="displayValue" placeholder="Enter Your Contact Information With Message" id="displayValue" style="position:absolute;top:0px;left:0px;width:800px;width:800px\9;#width:800px;height:23px; height:21px\9;#height:18px;border:1px solid #556;" onfocus="this.select()" type="text">
 					<input name="idValue" id="idValue" type="hidden">
 					</div>
 						
