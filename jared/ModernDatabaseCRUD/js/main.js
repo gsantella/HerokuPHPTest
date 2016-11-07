@@ -19,8 +19,20 @@ $(document).ready(function() {
 			success: function() {
 				$("#insertStatus").html("successful on inserting one record!")
 			}
-		})
+		});
+
+	});
 	
+	$("#btnDeleteDataWithAJAX").click(function(){
+		
+		$.ajax({
+			type: "POST",
+			url: "inc/deleteData.php",
+			data: "id=" + $("#txtId").val(),
+			success: function(result) {
+				$("#deleteStatus").html(result);	
+			}
+		});
 	});
 	
 });

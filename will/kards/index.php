@@ -881,7 +881,7 @@
    			<h5>Contact</h5>
    			<h1>I'd Love To Hear From You.</h1>
 
-   			<p class="lead">Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</p>
+   			<p class="lead">Feel free to send me your contact information with any question you have and I will get back to you</p>
 
    		</div> 
    	</div> <!-- /section-intro -->
@@ -917,6 +917,33 @@
 								</div>
 							</div>
                   </div>
+				  
+				  <div class="dropdown">
+					 <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+						Choose how you would like your Response
+						<span class="caret"></span>
+					 </button><br />
+					 <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+						<li><a href="#">Phone</a></li>
+						<li><a href="#">Email</a></li>
+						<li><a href="#">Letter</a></li>
+					<!--	<li role="separator" class="divider"></li>
+						<li><a href="#">Separated link</a></li> -->
+					 </ul>
+				  </div>
+				  
+				  <div class="btn-group" role="group" aria-label="...">How Would You Rate You Experience Today:<br>
+					<li><button type="button" class="btn btn-default">Fire Your Web Designer</button></li>
+					<li><button type="button" class="btn btn-default">Needs Improvements</button></li>
+					<li><button type="button" class="btn btn-default">Another Day Another Page</button></li>
+					<li><button type="button" class="btn btn-default">Would Recommend A Friend</button></li>
+					<li><button type="button" class="btn btn-default">How Can I Join Your Team</button></li>
+				  </div>
+				  
+				  <form action="demo_form.asp">
+					<input type="checkbox">Just click here to approve<br>
+				  </form>
+				  
 
       			</fieldset>
       		</form> <!-- Form End -->

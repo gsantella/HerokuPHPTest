@@ -31,6 +31,24 @@
 	</table>
 	
 	<p>The number of rows in the table: <?= $result->rowCount(); ?></p>
+	
+	<table>
+		<tr>
+			<td>1</td>
+			<td>Ford</td>
+			<td>Focus</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>Ford</td>
+			<td>Fusion</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>Ford</td>
+			<td>F150</td>
+		</tr>
+	</table>
 </body>
 
 </html>

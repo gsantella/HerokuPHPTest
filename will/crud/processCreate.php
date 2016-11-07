@@ -10,12 +10,13 @@ $dsn = "pgsql:dbname=$db;host=$host;user=$user;password=$pass";
 $database = new PDO($dsn);
 
 //Run a SELECT SQL Statement To Get Results
-$result = $database->query("SELECT * FROM students;")->fetchAll(PDO::FETCH_ASSOC);
+//$result=$database->query("SELECT * FROM students;")->fetchAll(PDO::FETCH_ASSOC);
+//print_r($result);
 
 //To Update SQL Statement
-//$stmt = $db->prepare("UPDATE students SET name=? WHERE id=?")
-//$stmt -> execute(array($name, $id));
-//$affected_rows = $stmt -> rowCount();
+$stmt=$database->prepare("INSERT INTO students(first_name) VALUES(?)");
+$result=$stmt->execute(array($_REQUEST["name"]));
+echo $result;
 
 //Close Connection
 //Ignore For Now . . 

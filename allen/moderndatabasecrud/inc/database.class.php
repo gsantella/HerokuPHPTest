@@ -32,4 +32,16 @@
 			}
 			
 		}
+		
+		public function delete($id) {
+			$stmt = $this->db->prepare("DELETE FROM students WHERE id=?;");
+			$stmtSuccess = $stmt->execute(array($id));
+			
+			if ($stmtSuccess) {
+				echo "1 Record deleted Successfully!";
+			}
+			else {
+				echo "Delete is broken!!!!!";
+			}
+		}
 	}

@@ -36,6 +36,19 @@ class Database {
 			echo "Insert is broken!!";
 		}
 	}
-	
+	public function insert($id)
+	{
+		$stmt = $this->db->prepare("DELETE FROM students WHERE id=?;");
+		$stmtSuccess = $stmt->execute(array($data));
+		
+		if ($stmtSuccess)
+		{
+			echo "1 Record deleted Successfully";
+		}
+		else
+		{
+			echo "Delete is broken!!";
+		}
+	}
 	
 }

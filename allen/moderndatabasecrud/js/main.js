@@ -19,4 +19,15 @@ $(document).ready(function() {
 			}
 		});
 	});
+	
+	$('#btnDeleteDataWithAJAX').click(function() {
+		$.ajax({
+			type: "POST",
+			url: "inc/deleteData.php",
+			data: "id="+$('#txtId').val(),
+			success: function(result) {
+				$("#deleteStatus").html(result);
+			}
+		});
+	});
 });

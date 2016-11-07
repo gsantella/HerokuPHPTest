@@ -6,5 +6,5 @@ include("database.class.php");
 //make a databas object called $db
 $db = new Database();
 
-//test that the insert function works
-$db->insert($_REQUEST["id"]);
+//test that the delete function works
+$db->delete($_REQUEST["id"]);

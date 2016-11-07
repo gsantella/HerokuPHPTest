@@ -7,7 +7,8 @@ $(document).ready(function() {
 		});
 	});	
 	
-	$("#btnInsertDataWithAJAX").click(function() {
+	$("#btnInsertDataWithAJAX").click(function() 
+	{
 		
 		$.ajax({
 			type: "POST",
