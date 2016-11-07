@@ -10,12 +10,12 @@ $(document).ready(function() {
 	});
 	
 	$("#btnLoadDataWithAJAX").click(function() {
-		alert( $("#txtFirstName").val() );
+		alert( $("#txtfirstName").val() );
 		
 		$.ajax({
 			type: "POST",
 			url: "inc/insertData.php",
-			data: data "firstName=" + $("#txtFirstName").val(),
+			data: data "firstName=" + $("#txtfirstName").val(),
 			success: function() {
 				$("#insertStatus").html("Successful on inserting one record!");
 			}
